@@ -1,0 +1,992 @@
+carID,brand,model,year,transmission,mileage (mi),odometer (km),fuelType,mpg (mi),L/100km,engineSize (L),price (£),price (CAD)
+12000, merc, GLS Class, 2017, Automatic, 12046, 19386, Diesel, 37.2, 6.32, 3, 38000, 64600
+12001, vw, Amarok, 2017, Automatic, 37683, 60645, Diesel, 36.2, 6.5, 3, 23495, 39941.5
+12004, merc, GLS Class, 2019, Automatic, 10000, 16093, Diesel, 34, 6.92, 3, 59999, 101998.3
+12017, audi, RS6, 2015, Semi-Auto, 20982, 33767, Petrol, 29.4, 8, 4, 46000, 78200
+12020, merc, GL Class, 2016, Manual, 26809, 43145, Diesel, 67.3, 3.5, 2.1, 15699, 26688.3
+12024, merc, CLS Class, 2015, Semi-Auto, 33087, 53248, Diesel, 51.4, 4.58, 3, 20498, 34846.6
+12027, toyota, Prius, 2019, Automatic, 4793, 7714, Hybrid, 64.2, 3.66, 1.8, 23995, 40791.5
+12028, vw, Amarok, 2020, Automatic, 5000, 8047, Diesel, 33.6, 7, 3, 34995, 59491.5
+12029, vw, Amarok, 2019, Automatic, 12023, 19349, Diesel, 28.3, 8.31, 3, 32888, 55909.6
+12034, vw, Tiguan Allspace, 2019, Semi-Auto, 6515, 10485, Petrol, 35.8, 6.57, 1.5, 29990, 50983
+12040, audi, RS6, 2016, Automatic, 41854, 67357, Petrol, 29.4, 8, 4, 49500, 84150
+12041, merc, S Class, 2018, Semi-Auto, 39203, 63091, Diesel, 52.3, 4.5, 3, 34999, 59498.3
+12042, vw, Beetle, 2016, Manual, 35345, 56882, Diesel, 61.4, 3.83, 2, 10990, 18683
+12043, ford, Edge, 2019, Automatic, 10, 16, Diesel, 37.2, 6.32, 2, 33000, 56100
+12046, vw, Amarok, 2020, Automatic, 10000, 16093, Diesel, 27.7, 8.49, 3, 44980, 76466
+12047, audi, RS3, 2015, Automatic, 15016, 24166, Petrol, 34.9, 6.74, 2.5, 28985, 49274.5
+12048, ford, Fusion, 2008, Automatic, 66000, 106216, Petrol, 37.2, 6.32, 1.6, 2750, 4675
+12049, bmw, 7 Series, 2008, Automatic, 70500, 113458, Diesel, 35.3, 6.66, 3, 6480, 11016
+12052, ford, Galaxy, 2019, Semi-Auto, 3763, 6056, Diesel, 54.3, 4.33, 2, 27500, 46750
+12054, toyota, Prius, 2019, Automatic, 4605, 7411, Hybrid, 61.4, 3.83, 1.8, 23490, 39933
+12056, merc, S Class, 2015, Semi-Auto, 34434, 55416, Diesel, 48.7, 4.83, 3, 26498, 45046.6
+12060, bmw, 6 Series, 2017, Semi-Auto, 3546, 5707, Diesel, 48.7, 4.83, 3, 32023, 54439.1
+12064, merc, S Class, 2019, Semi-Auto, 2500, 4023, Diesel, 52.3, 4.5, 3, 55649, 94603.3
+12069, hyundi, Santa Fe, 2019, Semi-Auto, 3920, 6309, Diesel, 39.2, 6, 2.2, 32995, 56091.5
+12071, bmw, M5, 2019, Semi-Auto, 2269, 3652, Petrol, 24.1, 9.76, 4.4, 89900, 152830
+12073, ford, Edge, 2019, Automatic, 21457, 34532, Diesel, 37.2, 6.32, 2, 30000, 51000
+12076, ford, Edge, 2019, Automatic, 10, 16, Diesel, 37.2, 6.32, 2, 30990, 52683
+12081, ford, Grand C-MAX, 2017, Manual, 16509, 26569, Petrol, 54.3, 4.33, 1, 12000, 20400
+12082, bmw, 6 Series, 2016, Automatic, 37868, 60942, Diesel, 51.4, 4.58, 3, 18737, 31852.9
+12083, toyota, Prius, 2017, Automatic, 8943, 14392, Hybrid, 94.1, 2.5, 1.8, 20995, 35691.5
+12088, hyundi, IX20, 2017, Manual, 32663, 52566, Diesel, 64.2, 3.66, 1.6, 8769, 14907.3
+12091, toyota, Hilux, 2016, Manual, 28521, 45900, Diesel, 40.4, 5.82, 2.4, 19990, 33983
+12095, merc, GL Class, 2018, Manual, 15202, 24465, Petrol, 48.7, 4.83, 1.6, 19399, 32978.3
+12096, merc, X-CLASS, 2018, Manual, 14243, 22922, Diesel, 37.2, 6.32, 2.3, 18991, 32284.7
+12100, bmw, X4, 2016, Semi-Auto, 13005, 20929, Diesel, 54.3, 4.33, 2, 26995, 45891.5
+12102, ford, Puma, 2020, Manual, 1543, 2483, Petrol, 50.4, 4.67, 1, 21495, 36541.5
+12103, merc, S Class, 2018, Semi-Auto, 3796, 6109, Petrol, 31.7, 7.42, 4, 104400, 177480
+12116, ford, Edge, 2019, Automatic, 12607, 20289, Diesel, 37.2, 6.32, 2, 32000, 54400
+12119, bmw, X7, 2019, Semi-Auto, 5600, 9012, Diesel, 33.6, 7, 3, 67400, 114580
+12122, toyota, Avensis, 2016, Manual, 41257, 66397, Diesel, 67.3, 3.5, 1.6, 8420, 14314
+12129, ford, Grand C-MAX, 2016, Manual, 36706, 59072, Diesel, 61.4, 3.83, 2, 12295, 20901.5
+12133, ford, Edge, 2018, Semi-Auto, 3420, 5504, Diesel, 37.2, 6.32, 2, 29000, 49300
+12136, toyota, Land Cruiser, 2020, Semi-Auto, 3390, 5456, Diesel, 30.1, 7.81, 2.8, 50995, 86691.5
+12141, audi, A8, 2018, Automatic, 10296, 16570, Diesel, 50.4, 4.67, 3, 37000, 62900
+12142, vw, Shuttle, 2018, Manual, 9289, 14949, Diesel, 46.3, 5.08, 2, 21999, 37398.3
+12151, vw, CC, 2015, Manual, 36602, 58905, Diesel, 62.8, 3.75, 2, 11292, 19196.4
+12153, vw, Scirocco, 2017, Manual, 20491, 32977, Diesel, 55.4, 4.25, 2, 14881, 25297.7
+12155, bmw, M2, 2019, Automatic, 2689, 4328, Petrol, 29.1, 8.08, 3, 43480, 73916
+12158, ford, Puma, 2019, Manual, 2233, 3594, Petrol, 51.4, 4.58, 1, 18990, 32283
+12160, hyundi, I800, 2017, Automatic, 41469, 66738, Diesel, 33.6, 7, 2.5, 13500, 22950
+12166, toyota, Hilux, 2020, Automatic, 1259, 2026, Diesel, 2.8, 84.01, 2.4, 39257, 66736.9
+12167, vw, Arteon, 2018, Semi-Auto, 23000, 37015, Diesel, 55.4, 4.25, 2, 22490, 38233
+12173, audi, A7, 2017, Semi-Auto, 56460, 90863, Diesel, 52.3, 4.5, 3, 21500, 36550
+12179, ford, Galaxy, 2016, Manual, 16407, 26404, Diesel, 56.5, 4.16, 2, 17000, 28900
+12181, hyundi, I40, 2019, Manual, 10, 16, Diesel, 52.3, 4.5, 1.6, 16500, 28050
+12182, audi, A7, 2011, Semi-Auto, 72000, 115872, Petrol, 34.4, 6.84, 3, 12950, 22015
+12184, hyundi, IX35, 2013, Manual, 25892, 41669, Diesel, 48.7, 4.83, 1.7, 8799, 14958.3
+12186, bmw, X4, 2020, Automatic, 5000, 8047, Diesel, 40.9, 5.75, 3, 44495, 75641.5
+12187, ford, Edge, 2017, Manual, 19726, 31746, Diesel, 48.7, 4.83, 2, 20479, 34814.3
+12191, merc, V Class, 2018, Automatic, 3067, 4936, Diesel, 44.8, 5.25, 2.2, 42134, 71627.8
+12193, ford, Mustang, 2016, Automatic, 18500, 29773, Petrol, 23.5, 10.01, 5, 28490, 48433
+12196, merc, GL Class, 2016, Automatic, 16489, 26536, Diesel, 56.5, 4.16, 2.1, 19699, 33488.3
+12199, ford, Grand C-MAX, 2017, Manual, 31976, 51460, Diesel, 61.4, 3.83, 2, 13299, 22608.3
+12201, bmw, Z4, 2019, Automatic, 2756, 4435, Petrol, 33.2, 7.08, 3, 40000, 68000
+12203, ford, Edge, 2017, Semi-Auto, 36000, 57936, Diesel, 48.7, 4.83, 2, 18490, 31433
+12211, ford, Puma, 2020, Manual, 3000, 4828, Petrol, 50.4, 4.67, 1, 22975, 39057.5
+12219, ford, Edge, 2017, Manual, 38778, 62407, Diesel, 48.7, 4.83, 2, 17295, 29401.5
+12224, bmw, M4, 2018, Automatic, 3033, 4881, Petrol, 33.6, 7, 3, 51000, 86700
+12228, toyota, Supra, 2019, Semi-Auto, 500, 805, Petrol, 34.5, 6.82, 3, 49994, 84989.8
+12231, hyundi, Santa Fe, 2014, Manual, 50425, 81151, Diesel, 46.3, 5.08, 2.2, 11830, 20111
+12232, merc, CLS Class, 2018, Semi-Auto, 11461, 18445, Diesel, 57.7, 4.08, 2.1, 24775, 42117.5
+12233, bmw, X7, 2019, Semi-Auto, 2881, 4637, Diesel, 33.6, 7, 3, 66000, 112200
+12235, merc, CLS Class, 2018, Semi-Auto, 8673, 13958, Petrol, 36.2, 6.5, 3, 41112, 69890.4
+12238, toyota, Prius, 2017, Automatic, 37564, 60453, Hybrid, 85.6, 2.75, 1.8, 18799, 31958.3
+12245, merc, V Class, 2019, Automatic, 9, 14, Diesel, 36.2, 6.5, 2, 45395, 77171.5
+12247, bmw, 6 Series, 2019, Automatic, 35, 56, Petrol, 29.1, 8.08, 3, 39146, 66548.2
+12248, vw, Caravelle, 2019, Automatic, 2000, 3219, Diesel, 33.6, 7, 2, 40000, 68000
+12250, merc, GL Class, 2018, Automatic, 12471, 20070, Petrol, 50.4, 4.67, 1.6, 19999, 33998.3
+12254, audi, A7, 2019, Semi-Auto, 20, 32, Diesel, 38.2, 6.16, 2, 39950, 67915
+12256, toyota, Verso, 2017, Automatic, 22512, 36229, Petrol, 42.8, 5.5, 1.8, 14291, 24294.7
+12258, hyundi, IX35, 2015, Manual, 46573, 74952, Diesel, 53.3, 4.41, 1.7, 8420, 14314
+12259, bmw, X4, 2019, Automatic, 3170, 5102, Petrol, 26.9, 8.74, 3, 40000, 68000
+12265, ford, Galaxy, 2018, Manual, 19033, 30631, Diesel, 56.5, 4.16, 2, 17900, 30430
+12266, vw, Amarok, 2018, Automatic, 24000, 38624, Diesel, 36.2, 6.5, 3, 26990, 45883
+12268, merc, GLB Class, 2020, Semi-Auto, 349, 562, Diesel, 46.3, 5.08, 2, 39980, 67966
+12270, audi, A8, 2015, Automatic, 25406, 40887, Diesel, 49.6, 4.74, 3, 19870, 33779
+12274, ford, Puma, 2020, Manual, 2477, 3986, Petrol, 50.4, 4.67, 1, 19990, 33983
+12277, toyota, Avensis, 2016, Manual, 40889, 65804, Diesel, 67.3, 3.5, 1.6, 11495, 19541.5
+12279, ford, Galaxy, 2017, Manual, 8204, 13203, Diesel, 56.5, 4.16, 2, 19223, 32679.1
+12283, audi, S3, 2017, Semi-Auto, 26500, 42648, Petrol, 43.5, 5.41, 2, 23950, 40715
+12284, audi, RS3, 2017, Semi-Auto, 17552, 28247, Petrol, 34, 6.92, 2.5, 38995, 66291.5
+12287, ford, Mustang, 2018, Automatic, 3000, 4828, Petrol, 28.8, 8.17, 2.3, 29998, 50996.6
+12289, audi, RS6, 2017, Semi-Auto, 13051, 21003, Petrol, 29.4, 8, 4, 56950, 96815
+12292, merc, X-CLASS, 2019, Automatic, 40, 64, Diesel, 31.4, 7.49, 3, 32500, 55250
+12295, vw, Beetle, 2014, Semi-Auto, 17162, 27619, Diesel, 50.4, 4.67, 2, 14990, 25483
+12298, ford, Galaxy, 2019, Semi-Auto, 9770, 15723, Diesel, 54.3, 4.33, 2, 24479, 41614.3
+12299, merc, M Class, 2015, Automatic, 50408, 81124, Diesel, 39.2, 6, 2.1, 19940, 33898
+12300, merc, CLS Class, 2018, Semi-Auto, 14130, 22740, Diesel, 48.7, 4.83, 2.9, 31796, 54053.2
+12309, ford, Galaxy, 2013, Manual, 67000, 107826, Diesel, 49.6, 4.74, 2, 9290, 15793
+12311, toyota, Prius, 2017, Automatic, 27203, 43779, Hybrid, 85.6, 2.75, 1.8, 20495, 34841.5
+12312, hyundi, IX20, 2016, Automatic, 31000, 49890, Petrol, 43.5, 5.41, 1.6, 9350, 15895
+12314, ford, Grand C-MAX, 2017, Manual, 28958, 46603, Diesel, 64.2, 3.66, 1.5, 10500, 17850
+12320, merc, S Class, 2019, Semi-Auto, 5961, 9593, Diesel, 52.3, 4.5, 3, 54599, 92818.3
+12321, ford, KA, 2013, Manual, 40000, 64374, Petrol, 57.7, 4.08, 1.2, 4500, 7650
+12324, merc, X-CLASS, 2018, Automatic, 7820, 12585, Diesel, 31.4, 7.49, 3, 38995, 66291.5
+12325, vw, Shuttle, 2019, Semi-Auto, 10074, 16212, Diesel, 32.8, 7.17, 2, 28000, 47600
+12326, ford, KA, 2018, Manual, 6878, 11069, Petrol, 57.7, 4.08, 1.2, 8700, 14790
+12328, ford, Tourneo Custom, 2016, Manual, 44233, 71186, Diesel, 46.3, 5.08, 2, 18798, 31956.6
+12331, ford, Grand Tourneo Connect, 2014, Manual, 37381, 60159, Diesel, 58.9, 3.99, 1.6, 10995, 18691.5
+12332, toyota, Land Cruiser, 2015, Semi-Auto, 27845, 44812, Diesel, 38.2, 6.16, 2.8, 31200, 53040
+12333, ford, Grand Tourneo Connect, 2016, Automatic, 21576, 34723, Diesel, 56.6, 4.16, 1.5, 14000, 23800
+12338, vw, Arteon, 2017, Semi-Auto, 13764, 22151, Petrol, 47.1, 4.99, 2, 20750, 35275
+12346, ford, Galaxy, 2018, Semi-Auto, 31589, 50837, Diesel, 52.3, 4.5, 2, 19999, 33998.3
+12354, ford, Galaxy, 2019, Automatic, 11112, 17883, Diesel, 53.3, 4.41, 2, 25999, 44198.3
+12355, vw, Tiguan Allspace, 2019, Semi-Auto, 6000, 9656, Diesel, 39.2, 6, 2, 28490, 48433
+12359, ford, Edge, 2019, Semi-Auto, 22, 35, Diesel, 37.2, 6.32, 2, 32000, 54400
+12360, bmw, X6, 2016, Semi-Auto, 25684, 41334, Petrol, 25.4, 9.26, 4.4, 44160, 75072
+12362, ford, Grand C-MAX, 2015, Manual, 47182, 75932, Diesel, 64.2, 3.66, 1.5, 8498, 14446.6
+12365, merc, V Class, 2019, Automatic, 3179, 5116, Diesel, 36.2, 6.5, 2, 46995, 79891.5
+12368, merc, CLS Class, 2013, Automatic, 56198, 90442, Diesel, 46.3, 5.08, 3, 14750, 25075
+12373, vw, Amarok, 2016, Automatic, 58349, 93903, Diesel, 35.3, 6.66, 2, 16995, 28891.5
+12379, vw, Arteon, 2019, Automatic, 3000, 4828, Petrol, 32.8, 7.17, 2, 32399, 55078.3
+12381, bmw, X4, 2019, Semi-Auto, 14404, 23181, Diesel, 42.8, 5.5, 2, 33998, 57796.6
+12384, vw, Amarok, 2016, Automatic, 32990, 53092, Diesel, 35.3, 6.66, 2, 18850, 32045
+12388, merc, S Class, 2017, Automatic, 21000, 33796, Petrol, 40.9, 5.75, 3, 48990, 83283
+12392, merc, S Class, 2017, Automatic, 31582, 50826, Diesel, 50.4, 4.67, 3, 28000, 47600
+12401, hyundi, Santa Fe, 2019, Semi-Auto, 3837, 6175, Diesel, 39.2, 6, 2.2, 34495, 58641.5
+12402, audi, RS5, 2019, Automatic, 9771, 15725, Petrol, 29.7, 7.92, 2.9, 54883, 93301.1
+12405, ford, Grand C-MAX, 2017, Manual, 58111, 93520, Diesel, 64.2, 3.66, 1.5, 8691, 14774.7
+12410, hyundi, I40, 2015, Semi-Auto, 36831, 59274, Diesel, 56.5, 4.16, 1.7, 10498, 17846.6
+12412, bmw, M4, 2020, Automatic, 5000, 8047, Petrol, 34, 6.92, 3, 53988, 91779.6
+12415, vw, Beetle, 2013, Manual, 34803, 56010, Petrol, 41.5, 5.67, 1.4, 13189, 22421.3
+12417, merc, V Class, 2019, Automatic, 2326, 3743, Diesel, 45.6, 5.16, 2.2, 47990, 81583
+12422, vw, Caravelle, 2020, Automatic, 1001, 1611, Diesel, 33.6, 7, 2, 47000, 79900
+12425, vw, Caravelle, 2019, Automatic, 7583, 12204, Diesel, 32.8, 7.17, 2, 39950, 67915
+12429, ford, KA, 2009, Manual, 43000, 69202, Petrol, 55.4, 4.25, 1.2, 3250, 5525
+12430, ford, Grand Tourneo Connect, 2019, Manual, 3500, 5633, Diesel, 61.4, 3.83, 1.5, 19999, 33998.3
+12434, merc, CLS Class, 2016, Semi-Auto, 28415, 45729, Diesel, 51.4, 4.58, 3, 21490, 36533
+12436, audi, A8, 2018, Semi-Auto, 6588, 10602, Diesel, 48.7, 4.83, 3, 38995, 66291.5
+12437, ford, Grand C-MAX, 2016, Manual, 17621, 28358, Diesel, 64.2, 3.66, 1.5, 10099, 17168.3
+12442, toyota, PROACE VERSO, 2020, Automatic, 1255, 2020, Diesel, 38.7, 6.08, 2, 47990, 81583
+12448, bmw, M2, 2019, Semi-Auto, 100, 161, Petrol, 29.1, 8.08, 3, 47980, 81566
+12449, ford, KA, 2014, Manual, 35000, 56327, Petrol, 57.7, 4.08, 1.2, 5480, 9316
+12450, bmw, Z4, 2020, Semi-Auto, 13, 21, Petrol, 38.7, 6.08, 2, 29490, 50133
+12451, bmw, 7 Series, 2019, Semi-Auto, 7200, 11587, Diesel, 42.2, 5.57, 3, 46898, 79726.6
+12452, ford, Edge, 2019, Semi-Auto, 1839, 2960, Diesel, 37.2, 6.32, 2, 31600, 53720
+12453, toyota, Hilux, 2018, Automatic, 35041, 56393, Diesel, 36.2, 6.5, 2.4, 20998, 35696.6
+12460, ford, KA, 2014, Manual, 51028, 82121, Petrol, 57.7, 4.08, 1.2, 4200, 7140
+12465, vw, Scirocco, 2015, Manual, 20076, 32309, Diesel, 55.4, 4.25, 2, 14591, 24804.7
+12467, ford, Grand Tourneo Connect, 2019, Manual, 3500, 5633, Diesel, 61.4, 3.83, 1.5, 19999, 33998.3
+12468, toyota, Avensis, 2016, Manual, 58260, 93760, Diesel, 62.8, 3.75, 2, 10995, 18691.5
+12469, hyundi, Santa Fe, 2018, Manual, 7781, 12522, Diesel, 47.1, 4.99, 2.2, 20250, 34425
+12474, ford, Grand Tourneo Connect, 2019, Automatic, 3942, 6344, Diesel, 56.6, 4.16, 1.5, 19500, 33150
+12482, hyundi, I40, 2014, Manual, 63458, 102125, Diesel, 62.8, 3.75, 1.7, 6895, 11721.5
+12485, merc, CLS Class, 2016, Semi-Auto, 30496, 49078, Diesel, 51.4, 4.58, 3, 21998, 37396.6
+12487, toyota, Avensis, 2014, Manual, 58523, 94183, Diesel, 61.4, 3.83, 2, 7950, 13515
+12501, hyundi, I40, 2013, Manual, 66300, 106699, Diesel, 55.4, 4.25, 1.7, 6495, 11041.5
+12507, toyota, Verso, 2017, Manual, 23850, 38383, Diesel, 62.8, 3.75, 1.6, 12995, 22091.5
+12508, merc, CLS Class, 2016, Automatic, 39200, 63086, Diesel, 57.7, 4.08, 2.1, 17990, 30583
+12511, hyundi, Santa Fe, 2015, Semi-Auto, 37854, 60920, Diesel, 42.2, 5.57, 2.2, 17290, 29393
+12518, ford, Fusion, 2006, Manual, 69255, 111455, Petrol, 43.5, 5.41, 1.4, 2495, 4241.5
+12521, ford, Grand C-MAX, 2017, Manual, 12628, 20323, Diesel, 64.2, 3.66, 1.5, 12698, 21586.6
+12522, toyota, Hilux, 2019, Manual, 6500, 10461, Diesel, 40.4, 5.82, 2.4, 18695, 31781.5
+12538, hyundi, I40, 2014, Manual, 38406, 61808, Diesel, 62.8, 3.75, 1.7, 7600, 12920
+12542, ford, Galaxy, 2013, Manual, 54922, 88388, Diesel, 41.5, 5.67, 2.2, 11750, 19975
+12545, ford, Edge, 2017, Automatic, 27146, 43687, Diesel, 47.9, 4.91, 2, 23899, 40628.3
+12546, merc, CLK, 2002, Automatic, 98000, 157715, Petrol, 24.6, 9.56, 5, 3790, 6443
+12547, bmw, X6, 2013, Automatic, 70650, 113700, Diesel, 36.7, 6.41, 3, 19795, 33651.5
+12548, hyundi, Santa Fe, 2017, Automatic, 20599, 33151, Diesel, 42.8, 5.5, 2.2, 18999, 32298.3
+12549, hyundi, I40, 2017, Manual, 21743, 34992, Diesel, 65.7, 3.58, 1.7, 11495, 19541.5
+12552, hyundi, IX20, 2019, Manual, 100, 161, Petrol, 37.2, 6.32, 1.6, 14750, 25075
+12553, merc, CLS Class, 2018, Semi-Auto, 5673, 9130, Diesel, 48.7, 4.83, 2.9, 33000, 56100
+12554, hyundi, Santa Fe, 2016, Automatic, 51849, 83443, Diesel, 42.2, 5.57, 2.2, 15899, 27028.3
+12556, hyundi, IX35, 2012, Manual, 64992, 104594, Petrol, 41.5, 5.67, 1.6, 5790, 9843
+12557, merc, GLS Class, 2017, Automatic, 45239, 72805, Petrol, 23, 10.23, 5.5, 53000, 90100
+12560, hyundi, Santa Fe, 2015, Semi-Auto, 38514, 61982, Diesel, 42.2, 5.57, 2.2, 16998, 28896.6
+12562, hyundi, Santa Fe, 2019, Automatic, 623, 1003, Diesel, 42.8, 5.5, 2.2, 32950, 56015
+12564, vw, Scirocco, 2017, Semi-Auto, 27597, 44413, Diesel, 58.9, 3.99, 2, 16490, 28033
+12566, audi, A7, 2013, Automatic, 71100, 114424, Diesel, 44.1, 5.33, 3, 17500, 29750
+12574, vw, Arteon, 2019, Semi-Auto, 4482, 7213, Diesel, 44.1, 5.33, 2, 26995, 45891.5
+12575, bmw, X7, 2020, Semi-Auto, 5656, 9102, Diesel, 31.4, 7.49, 3, 77990, 132583
+12576, bmw, X6, 2019, Semi-Auto, 3145, 5061, Petrol, 26.4, 8.91, 3, 68300, 116110
+12580, vw, Scirocco, 2016, Manual, 14772, 23773, Petrol, 52.3, 4.5, 1.4, 13268, 22555.6
+12583, toyota, Verso, 2016, Manual, 22691, 36518, Petrol, 41.5, 5.67, 1.6, 10500, 17850
+12589, bmw, i3, 2017, Automatic, 33021, 53142, Hybrid, 470.8, 0.5, 0, 18995, 32291.5
+12591, vw, Caravelle, 2012, Automatic, 45000, 72420, Diesel, 34.4, 6.84, 2, 21995, 37391.5
+12594, merc, SLK, 2013, Automatic, 35116, 56514, Diesel, 56.5, 4.16, 2.1, 10699, 18188.3
+12598, bmw, X4, 2017, Automatic, 44397, 71450, Diesel, 47.1, 4.99, 3, 24100, 40970
+12601, bmw, X7, 2019, Semi-Auto, 9200, 14806, Diesel, 31.4, 7.49, 3, 74990, 127483
+12603, vw, Arteon, 2019, Semi-Auto, 6095, 9809, Petrol, 47.1, 4.99, 2, 26999, 45898.3
+12604, vw, Amarok, 2018, Automatic, 29771, 47912, Diesel, 36.2, 6.5, 3, 26990, 45883
+12605, merc, GL Class, 2015, Automatic, 61289, 98635, Diesel, 35.3, 6.66, 3, 28700, 48790
+12609, ford, Tourneo Custom, 2019, Automatic, 2000, 3219, Diesel, 32.1, 7.33, 2, 26500, 45050
+12615, bmw, X4, 2019, Semi-Auto, 3098, 4986, Diesel, 42.8, 5.5, 2, 35990, 61183
+12618, merc, CLS Class, 2016, Semi-Auto, 39972, 64329, Diesel, 57.7, 4.08, 2.1, 19113, 32492.1
+12619, bmw, X4, 2019, Semi-Auto, 2316, 3727, Diesel, 42.8, 5.5, 2, 38182, 64909.4
+12621, toyota, Land Cruiser, 2017, Semi-Auto, 10023, 16130, Diesel, 38.2, 6.16, 2.8, 39995, 67991.5
+12622, hyundi, IX20, 2014, Manual, 19898, 32023, Petrol, 50.4, 4.67, 1.4, 7489, 12731.3
+12630, audi, S3, 2015, Semi-Auto, 46965, 75583, Petrol, 40.9, 5.75, 2, 19000, 32300
+12631, bmw, M4, 2020, Semi-Auto, 99, 159, Petrol, 34, 6.92, 3, 48630, 82671
+12632, hyundi, Getz, 2008, Manual, 67000, 107826, Petrol, 51.4, 4.58, 1.1, 1695, 2881.5
+12639, hyundi, IX20, 2017, Manual, 9870, 15884, Petrol, 50.4, 4.67, 1.4, 8499, 14448.3
+12641, bmw, 6 Series, 2015, Automatic, 25757, 41452, Diesel, 49.6, 4.74, 3, 21298, 36206.6
+12645, bmw, Z4, 2020, Semi-Auto, 100, 161, Petrol, 33.2, 7.08, 3, 38950, 66215
+12647, toyota, Land Cruiser, 2017, Semi-Auto, 30071, 48394, Diesel, 38.2, 6.16, 2.8, 31495, 53541.5
+12648, hyundi, Santa Fe, 2017, Manual, 30131, 48491, Diesel, 47.1, 4.99, 2.2, 17500, 29750
+12651, vw, Caravelle, 2019, Automatic, 2071, 3333, Diesel, 33.6, 7, 2, 47988, 81579.6
+12657, audi, RS6, 2014, Automatic, 58000, 93342, Petrol, 28.8, 8.17, 4, 38444, 65354.8
+12662, audi, A7, 2018, Automatic, 19132, 30790, Petrol, 39.8, 5.91, 3, 38880, 66096
+12665, merc, V Class, 2018, Manual, 27222, 43809, Diesel, 46.3, 5.08, 2.1, 19998, 33996.6
+12666, hyundi, IX20, 2015, Manual, 29731, 47847, Petrol, 50.4, 4.67, 1.4, 6890, 11713
+12668, bmw, 6 Series, 2016, Semi-Auto, 29403, 47319, Petrol, 35.8, 6.57, 3, 26420, 44914
+12672, vw, Arteon, 2019, Manual, 100, 161, Diesel, 52.3, 4.5, 2, 24450, 41565
+12673, hyundi, I40, 2016, Manual, 31731, 51066, Diesel, 65.7, 3.58, 1.7, 11180, 19006
+12677, ford, KA, 2008, Manual, 50990, 82060, Petrol, 45.6, 5.16, 1.3, 1895, 3221.5
+12680, merc, M Class, 2013, Automatic, 27932, 44952, Diesel, 44.8, 5.25, 2.1, 18999, 32298.3
+12683, bmw, Z4, 2015, Semi-Auto, 15768, 25376, Petrol, 30.1, 7.81, 3, 22895, 38921.5
+12685, audi, A8, 2018, Semi-Auto, 5538, 8913, Diesel, 50.4, 4.67, 3, 35866, 60972.2
+12687, toyota, Prius, 2013, Automatic, 80000, 128747, Hybrid, 70.6, 3.33, 1.8, 8988, 15279.6
+12692, bmw, M4, 2018, Semi-Auto, 8725, 14041, Petrol, 33.6, 7, 3, 53999, 91798.3
+12694, toyota, Verso, 2016, Manual, 25725, 41400, Petrol, 41.5, 5.67, 1.6, 11000, 18700
+12702, vw, Amarok, 2019, Automatic, 10000, 16093, Diesel, 33.6, 7, 3, 31495, 53541.5
+12703, hyundi, Santa Fe, 2017, Semi-Auto, 39589, 63712, Diesel, 42.8, 5.5, 2.2, 19470, 33099
+12704, audi, A8, 2014, Automatic, 48399, 77890, Diesel, 47.1, 4.99, 3, 17790, 30243
+12705, merc, CLS Class, 2019, Semi-Auto, 992, 1596, Petrol, 31.7, 7.42, 3, 69995, 118991.5
+12708, bmw, 7 Series, 2016, Automatic, 33000, 53108, Diesel, 54.3, 4.33, 3, 29990, 50983
+12710, merc, S Class, 2010, Automatic, 51238, 82459, Diesel, 37.2, 6.32, 3, 9995, 16991.5
+12711, bmw, Z4, 2020, Semi-Auto, 5, 8, Petrol, 37.2, 6.32, 2, 35000, 59500
+12713, vw, Shuttle, 2019, Semi-Auto, 12746, 20513, Diesel, 32.8, 7.17, 2, 26396, 44873.2
+12715, vw, Caddy Maxi Life, 2019, Automatic, 13191, 21229, Diesel, 44.1, 5.33, 2, 19000, 32300
+12716, merc, V Class, 2016, Automatic, 43000, 69202, Diesel, 45.6, 5.16, 2.1, 25490, 43333
+12726, toyota, Prius, 2017, Automatic, 37500, 60350, Hybrid, 85.6, 2.75, 1.8, 20500, 34850
+12728, vw, Caddy Maxi Life, 2019, Semi-Auto, 14056, 22621, Diesel, 44.1, 5.33, 2, 19995, 33991.5
+12734, merc, X-CLASS, 2020, Automatic, 303, 488, Diesel, 35.8, 6.57, 2.3, 31991, 54384.7
+12736, hyundi, IX35, 2015, Manual, 29865, 48063, Diesel, 53.3, 4.41, 1.7, 8595, 14611.5
+12746, vw, California, 2019, Automatic, 7486, 12048, Diesel, 33.2, 7.08, 2, 57991, 98584.7
+12754, merc, V Class, 2018, Manual, 32095, 51652, Diesel, 46.3, 5.08, 2.1, 19346, 32888.2
+12755, ford, Galaxy, 2016, Semi-Auto, 3950, 6357, Diesel, 52.3, 4.5, 2, 19170, 32589
+12759, hyundi, Santa Fe, 2017, Semi-Auto, 26385, 42462, Diesel, 42.8, 5.5, 2.2, 21849, 37143.3
+12762, bmw, M3, 2004, Manual, 60000, 96560, Petrol, 23.3, 10.1, 3.2, 17850, 30345
+12763, bmw, X4, 2016, Automatic, 52131, 83897, Diesel, 54.3, 4.33, 2, 20470, 34799
+12767, bmw, X7, 2019, Semi-Auto, 1657, 2667, Diesel, 31.4, 7.49, 3, 73990, 125783
+12768, bmw, Z4, 2016, Manual, 25921, 41716, Petrol, 41.5, 5.67, 2, 15991, 27184.7
+12777, audi, SQ7, 2017, Automatic, 40000, 64374, Diesel, 39.2, 6, 4, 43950, 74715
+12779, merc, M Class, 2014, Automatic, 74869, 120490, Diesel, 44.8, 5.25, 2.1, 16940, 28798
+12788, hyundi, I40, 2015, Manual, 54000, 86904, Diesel, 65.7, 3.58, 1.7, 6990, 11883
+12789, toyota, Land Cruiser, 2015, Automatic, 51437, 82780, Diesel, 38.2, 6.16, 2.8, 29875, 50787.5
+12790, merc, CLS Class, 2019, Automatic, 1751, 2818, Diesel, 45.6, 5.16, 2, 37890, 64413
+12796, vw, Scirocco, 2014, Manual, 44034, 70866, Diesel, 62.8, 3.75, 2, 10399, 17678.3
+12798, hyundi, I800, 2016, Automatic, 48039, 77311, Diesel, 33.6, 7, 2.5, 12711, 21608.7
+12805, audi, S3, 2016, Automatic, 60000, 96560, Petrol, 40.9, 5.75, 2, 21950, 37315
+12807, toyota, Camry, 2019, Automatic, 5145, 8280, Hybrid, 52.3, 4.5, 2.5, 24990, 42483
+12810, toyota, Hilux, 2015, Automatic, 19962, 32126, Diesel, 32.8, 7.17, 3, 20495, 34841.5
+12811, audi, A7, 2017, Semi-Auto, 34128, 54924, Petrol, 29.7, 7.92, 4, 30000, 51000
+12812, vw, Beetle, 2016, Manual, 20991, 33782, Petrol, 51.4, 4.58, 1.2, 13000, 22100
+12818, ford, KA, 2016, Manual, 19065, 30682, Petrol, 57.7, 4.08, 1.2, 6600, 11220
+12821, vw, Scirocco, 2017, Manual, 22430, 36097, Petrol, 47.1, 4.99, 2, 15495, 26341.5
+12822, toyota, Hilux, 2019, Automatic, 3500, 5633, Diesel, 36.2, 6.5, 2.4, 23995, 40791.5
+12825, merc, CLA Class, 2020, Automatic, 2000, 3219, Petrol, 44.8, 5.25, 1.3, 32995, 56091.5
+12829, merc, GL Class, 2015, Automatic, 21210, 34134, Diesel, 56.5, 4.16, 2.1, 18199, 30938.3
+12831, bmw, 6 Series, 2016, Semi-Auto, 15668, 25215, Petrol, 35.8, 6.57, 3, 26580, 45186
+12832, bmw, 7 Series, 2017, Automatic, 36500, 58741, Diesel, 57.6, 4.08, 3, 29999, 50998.3
+12833, vw, Arteon, 2019, Automatic, 7148, 11504, Diesel, 50.4, 4.67, 2, 29990, 50983
+12838, vw, Arteon, 2019, Manual, 7998, 12872, Diesel, 52.3, 4.5, 2, 24495, 41641.5
+12841, merc, V Class, 2017, Automatic, 14311, 23031, Diesel, 44.8, 5.25, 2.1, 36990, 62883
+12843, ford, Galaxy, 2018, Manual, 34615, 55707, Diesel, 56.5, 4.16, 2, 18000, 30600
+12848, vw, Beetle, 2016, Manual, 35916, 57801, Petrol, 47.1, 4.99, 1.4, 14991, 25484.7
+12850, merc, V Class, 2018, Manual, 21525, 34641, Diesel, 46.3, 5.08, 2.1, 19498, 33146.6
+12853, toyota, Avensis, 2017, Manual, 51681, 83172, Diesel, 61.4, 3.83, 2, 11199, 19038.3
+12855, toyota, Verso, 2016, Semi-Auto, 36318, 58448, Petrol, 43.5, 5.41, 1.8, 12495, 21241.5
+12860, audi, RS6, 2015, Automatic, 35000, 56327, Petrol, 29.4, 8, 4, 44944, 76404.8
+12861, audi, RS5, 2019, Automatic, 5000, 8047, Petrol, 30.1, 7.81, 2.9, 54000, 91800
+12862, merc, M Class, 2011, Automatic, 131000, 210824, Diesel, 31, 7.59, 3, 7995, 13591.5
+12866, merc, G Class, 2015, Semi-Auto, 10000, 16093, Petrol, 20.5, 11.47, 5.5, 99850, 169745
+12870, hyundi, IX20, 2017, Automatic, 17736, 28543, Petrol, 43.5, 5.41, 1.6, 10399, 17678.3
+12872, bmw, M4, 2019, Automatic, 99, 159, Petrol, 34, 6.92, 3, 45999, 78198.3
+12873, ford, Edge, 2016, Manual, 30282, 48734, Diesel, 47.9, 4.91, 2, 19991, 33984.7
+12874, hyundi, I800, 2019, Manual, 5137, 8267, Diesel, 31.7, 7.42, 2.5, 18497, 31444.9
+12877, audi, A8, 2018, Semi-Auto, 3027, 4871, Diesel, 40.4, 5.82, 3, 37750, 64175
+12878, vw, Caddy Maxi Life, 2019, Semi-Auto, 10194, 16406, Diesel, 44.1, 5.33, 2, 18695, 31781.5
+12881, ford, KA, 2016, Manual, 13592, 21874, Petrol, 57.7, 4.08, 1.2, 6500, 11050
+12882, ford, Puma, 2019, Manual, 300, 483, Petrol, 50.4, 4.67, 1, 21000, 35700
+12892, toyota, Prius, 2016, Automatic, 35373, 56927, Hybrid, 85.6, 2.75, 1.8, 18004, 30606.8
+12895, audi, RS4, 2015, Semi-Auto, 35905, 57783, Petrol, 26.4, 8.91, 4.2, 29995, 50991.5
+12896, bmw, 7 Series, 2014, Automatic, 78094, 125680, Diesel, 50.4, 4.67, 3, 13600, 23120
+12897, vw, Tiguan Allspace, 2019, Automatic, 3698, 5951, Diesel, 39.2, 6, 2, 30299, 51508.3
+12902, vw, Scirocco, 2017, Manual, 5396, 8684, Petrol, 52.3, 4.5, 1.4, 14498, 24646.6
+12907, ford, Grand Tourneo Connect, 2016, Automatic, 45228, 72787, Diesel, 56.6, 4.16, 1.5, 12157, 20666.9
+12912, merc, CLA Class, 2013, Automatic, 74194, 119403, Diesel, 62.8, 3.75, 2.1, 13000, 22100
+12918, hyundi, IX20, 2011, Manual, 23000, 37015, Petrol, 50.4, 4.67, 1.4, 4750, 8075
+12936, merc, X-CLASS, 2017, Manual, 6000, 9656, Diesel, 37.2, 6.32, 2.3, 26990, 45883
+12938, vw, Scirocco, 2017, Automatic, 13695, 22040, Petrol, 44.1, 5.33, 2, 15900, 27030
+12939, vw, Amarok, 2019, Automatic, 6317, 10166, Diesel, 33.6, 7, 3, 32990, 56083
+12946, bmw, Z4, 2009, Manual, 76000, 122310, Petrol, 30.1, 7.81, 3, 9490, 16133
+12947, ford, Mustang, 2016, Manual, 11600, 18668, Petrol, 20.9, 11.25, 5, 27925, 47472.5
+12950, ford, KA, 2015, Manual, 19502, 31385, Petrol, 57.7, 4.08, 1.2, 4698, 7986.6
+12954, hyundi, IX35, 2015, Manual, 33177, 53393, Diesel, 51.4, 4.58, 2, 10199, 17338.3
+12955, vw, Scirocco, 2017, Manual, 30186, 48580, Petrol, 52.3, 4.5, 1.4, 14500, 24650
+12958, vw, Arteon, 2019, Automatic, 11506, 18517, Diesel, 50.4, 4.67, 2, 29991, 50984.7
+12960, vw, Caravelle, 2019, Semi-Auto, 12192, 19621, Diesel, 32.8, 7.17, 2, 39995, 67991.5
+12965, merc, CLS Class, 2017, Automatic, 39040, 62829, Diesel, 57.7, 4.08, 2.1, 19000, 32300
+12970, bmw, M4, 2019, Semi-Auto, 19322, 31096, Petrol, 34, 6.92, 3, 40950, 69615
+12974, ford, Grand C-MAX, 2014, Manual, 70000, 112654, Diesel, 57.7, 4.08, 1.6, 7490, 12733
+12981, vw, Jetta, 2007, Automatic, 55000, 88514, Diesel, 45.6, 5.16, 2, 4450, 7565
+12982, merc, M Class, 2011, Automatic, 69000, 111044, Diesel, 32.5, 7.24, 3, 10990, 18683
+12985, hyundi, IX20, 2017, Automatic, 20673, 33270, Petrol, 43.5, 5.41, 1.6, 9998, 16996.6
+12986, audi, RS4, 2014, Semi-Auto, 58460, 94082, Petrol, 26.4, 8.91, 4.2, 26490, 45033
+12988, toyota, Prius, 2019, Automatic, 13772, 22164, Hybrid, 235, 1, 1.8, 22495, 38241.5
+12989, merc, CLS Class, 2013, Automatic, 48500, 78053, Diesel, 54.3, 4.33, 2.1, 13495, 22941.5
+12992, hyundi, IX20, 2017, Manual, 11567, 18615, Petrol, 50.4, 4.67, 1.4, 9500, 16150
+12993, toyota, Verso, 2017, Manual, 13918, 22399, Petrol, 41.5, 5.67, 1.6, 14495, 24641.5
+12996, ford, Edge, 2017, Automatic, 33576, 54035, Diesel, 48.7, 4.83, 2, 20250, 34425
+12998, vw, Amarok, 2019, Automatic, 6800, 10944, Diesel, 36.2, 6.5, 3, 31995, 54391.5
+12999, vw, Arteon, 2019, Automatic, 4560, 7339, Diesel, 44.1, 5.33, 2, 24800, 42160
+13000, vw, Amarok, 2016, Automatic, 29500, 47476, Diesel, 35.3, 6.66, 2, 22794, 38749.8
+13001, audi, S3, 2015, Manual, 32000, 51499, Petrol, 39.8, 5.91, 2, 18790, 31943
+13002, hyundi, Santa Fe, 2017, Automatic, 18543, 29842, Diesel, 42.8, 5.5, 2.2, 19500, 33150
+13003, ford, KA, 2013, Manual, 65000, 104607, Petrol, 57.7, 4.08, 1.2, 3695, 6281.5
+13004, merc, V Class, 2017, Automatic, 5000, 8047, Diesel, 48.7, 4.83, 2.1, 25490, 43333
+13012, bmw, X6, 2018, Semi-Auto, 18212, 29309, Diesel, 40.9, 5.75, 3, 38995, 66291.5
+13013, hyundi, I800, 2018, Automatic, 35757, 57545, Diesel, 28, 8.4, 2.5, 16990, 28883
+13016, vw, Arteon, 2019, Semi-Auto, 2313, 3722, Petrol, 48.7, 4.83, 1.5, 23798, 40456.6
+13017, ford, KA, 2014, Manual, 34000, 54718, Petrol, 57.7, 4.08, 1.2, 4650, 7905
+13020, merc, CLS Class, 2016, Automatic, 48000, 77248, Diesel, 57.7, 4.08, 2.1, 16990, 28883
+13024, merc, S Class, 2016, Automatic, 75000, 120701, Diesel, 50.4, 4.67, 3, 26495, 45041.5
+13031, merc, CLS Class, 2019, Semi-Auto, 2352, 3785, Diesel, 48.7, 4.83, 2.9, 36000, 61200
+13034, vw, Scirocco, 2016, Manual, 42038, 67653, Diesel, 53.3, 4.41, 2, 13495, 22941.5
+13041, vw, Amarok, 2019, Automatic, 9893, 15921, Diesel, 27.7, 8.49, 3, 43995, 74791.5
+13042, hyundi, IX35, 2014, Manual, 35541, 57198, Diesel, 53.3, 4.41, 1.7, 9800, 16660
+13043, vw, Arteon, 2019, Semi-Auto, 7525, 12110, Diesel, 50.4, 4.67, 2, 25000, 42500
+13047, vw, Tiguan Allspace, 2019, Semi-Auto, 10, 16, Petrol, 35.8, 6.57, 1.5, 30785, 52334.5
+13049, vw, Scirocco, 2016, Semi-Auto, 16688, 26857, Petrol, 65.7, 3.58, 2, 13490, 22933
+13050, merc, GLS Class, 2019, Semi-Auto, 6510, 10477, Diesel, 37.2, 6.32, 3, 48249, 82023.3
+13057, bmw, X4, 2015, Semi-Auto, 52020, 83718, Diesel, 54.3, 4.33, 2, 19660, 33422
+13058, toyota, Prius, 2018, Automatic, 16347, 26308, Hybrid, 235, 1, 1.8, 20495, 34841.5
+13063, hyundi, IX20, 2018, Automatic, 10166, 16361, Petrol, 34.5, 6.82, 1.6, 12150, 20655
+13064, merc, CLA Class, 2020, Automatic, 1000, 1609, Petrol, 44.8, 5.25, 1.3, 29498, 50146.6
+13069, audi, Q8, 2018, Semi-Auto, 11691, 18815, Diesel, 32.8, 7.17, 3, 59000, 100300
+13071, ford, Edge, 2017, Automatic, 14283, 22986, Diesel, 47.9, 4.91, 2, 22995, 39091.5
+13072, toyota, Avensis, 2015, Manual, 71000, 114263, Diesel, 61.4, 3.83, 2, 7495, 12741.5
+13073, toyota, Prius, 2014, Automatic, 47221, 75995, Hybrid, 134.5, 1.75, 1.8, 15995, 27191.5
+13074, vw, Arteon, 2019, Semi-Auto, 6882, 11075, Diesel, 62.8, 3.75, 2, 24990, 42483
+13079, hyundi, IX20, 2018, Manual, 15853, 25513, Petrol, 50.4, 4.67, 1.4, 10690, 18173
+13081, vw, Tiguan Allspace, 2019, Semi-Auto, 1473, 2371, Petrol, 35.8, 6.57, 1.5, 32201, 54741.7
+13087, hyundi, IX20, 2018, Manual, 6684, 10757, Petrol, 50.4, 4.67, 1.4, 12000, 20400
+13089, hyundi, I40, 2013, Automatic, 64672, 104079, Diesel, 47.1, 4.99, 1.7, 7485, 12724.5
+13096, merc, GL Class, 2016, Automatic, 26511, 42665, Diesel, 56.5, 4.16, 2.1, 17999, 30598.3
+13098, vw, Scirocco, 2016, Semi-Auto, 59257, 95365, Diesel, 57.6, 4.08, 2, 13498, 22946.6
+13106, ford, Galaxy, 2016, Manual, 10265, 16520, Diesel, 56.5, 4.16, 2, 19500, 33150
+13109, audi, Q8, 2019, Semi-Auto, 5608, 9025, Diesel, 33.6, 7, 3, 50990, 86683
+13114, toyota, Prius, 2017, Automatic, 17681, 28455, Hybrid, 235, 1, 1.8, 20998, 35696.6
+13115, bmw, M4, 2018, Semi-Auto, 8326, 13399, Petrol, 34, 6.92, 3, 35750, 60775
+13116, vw, Scirocco, 2016, Manual, 30855, 49656, Diesel, 67.3, 3.5, 2, 15890, 27013
+13119, ford, Tourneo Custom, 2016, Manual, 45668, 73495, Diesel, 44.8, 5.25, 2, 16998, 28896.6
+13122, toyota, Avensis, 2015, Manual, 28434, 45760, Diesel, 67.3, 3.5, 1.6, 9998, 16996.6
+13129, merc, M Class, 2014, Automatic, 59812, 96258, Diesel, 39.2, 6, 3, 16998, 28896.6
+13133, vw, Arteon, 2019, Semi-Auto, 4482, 7213, Diesel, 44.1, 5.33, 2, 26995, 45891.5
+13134, ford, Grand C-MAX, 2019, Automatic, 7000, 11265, Diesel, 51.4, 4.58, 1.5, 16995, 28891.5
+13136, hyundi, IX20, 2016, Manual, 32001, 51500, Petrol, 50.4, 4.67, 1.4, 7995, 13591.5
+13144, vw, Beetle, 2015, Manual, 39584, 63704, Petrol, 42.8, 5.5, 1.4, 9430, 16031
+13146, ford, Grand Tourneo Connect, 2016, Automatic, 45670, 73499, Diesel, 56.6, 4.16, 1.5, 12260, 20842
+13147, ford, Galaxy, 2019, Manual, 3158, 5082, Diesel, 45.6, 5.16, 2, 29499, 50148.3
+13148, merc, V Class, 2018, Manual, 23128, 37221, Diesel, 46.3, 5.08, 2.1, 20498, 34846.6
+13150, vw, Beetle, 2016, Manual, 18600, 29934, Petrol, 51.4, 4.58, 1.2, 11462, 19485.4
+13152, ford, Edge, 2018, Semi-Auto, 27215, 43798, Diesel, 47.9, 4.91, 2, 24999, 42498.3
+13155, vw, Tiguan Allspace, 2019, Semi-Auto, 16654, 26802, Diesel, 39.2, 6, 2, 23999, 40798.3
+13156, toyota, GT86, 2016, Manual, 37999, 61153, Petrol, 36.2, 6.5, 2, 13990, 23783
+13159, ford, Puma, 2019, Manual, 1400, 2253, Petrol, 50.4, 4.67, 1, 23750, 40375
+13170, merc, GLB Class, 2020, Semi-Auto, 2000, 3219, Diesel, 46.3, 5.08, 2, 35400, 60180
+13174, ford, Edge, 2016, Manual, 34688, 55825, Diesel, 47.9, 4.91, 2, 17995, 30591.5
+13178, toyota, Verso, 2017, Automatic, 13900, 22370, Petrol, 43.5, 5.41, 1.8, 15995, 27191.5
+13184, bmw, Z4, 2015, Manual, 19109, 30753, Petrol, 41.5, 5.67, 2, 14191, 24124.7
+13186, merc, V Class, 2018, Manual, 26973, 43409, Diesel, 46.3, 5.08, 2.1, 19998, 33996.6
+13188, bmw, 6 Series, 2016, Semi-Auto, 30252, 48686, Diesel, 49.6, 4.74, 3, 22495, 38241.5
+13189, hyundi, I800, 2019, Automatic, 19266, 31006, Diesel, 28, 8.4, 2.5, 20995, 35691.5
+13191, merc, X-CLASS, 2019, Automatic, 500, 805, Diesel, 35.8, 6.57, 2.3, 28945, 49206.5
+13195, hyundi, IX20, 2019, Automatic, 2122, 3415, Petrol, 34.5, 6.82, 1.6, 14989, 25481.3
+13197, vw, Scirocco, 2017, Manual, 11204, 18031, Petrol, 52.3, 4.5, 1.4, 13800, 23460
+13201, vw, Tiguan Allspace, 2019, Semi-Auto, 4814, 7747, Diesel, 39.2, 6, 2, 26998, 45896.6
+13214, bmw, X4, 2015, Automatic, 54116, 87091, Diesel, 47.9, 4.91, 3, 20250, 34425
+13215, merc, CLS Class, 2011, Automatic, 28738, 46249, Diesel, 46.3, 5.08, 3, 13299, 22608.3
+13216, merc, CLS Class, 2015, Automatic, 50231, 80839, Diesel, 56.5, 4.16, 2.1, 16995, 28891.5
+13218, bmw, X4, 2016, Automatic, 27580, 44386, Diesel, 47.9, 4.91, 3, 26000, 44200
+13220, bmw, i8, 2015, Automatic, 48800, 78536, Other, 134.5, 1.75, 1.5, 37995, 64591.5
+13221, toyota, Hilux, 2020, Manual, 100, 161, Diesel, 2.8, 84.01, 2.4, 23495, 39941.5
+13227, ford, Grand C-MAX, 2017, Manual, 17813, 28667, Diesel, 64.2, 3.66, 1.5, 12498, 21246.6
+13231, ford, Edge, 2017, Manual, 17399, 28001, Diesel, 48.7, 4.83, 2, 20498, 34846.6
+13234, audi, Q8, 2019, Automatic, 5680, 9141, Diesel, 33.6, 7, 3, 49495, 84141.5
+13238, ford, Galaxy, 2017, Manual, 37881, 60963, Diesel, 56.5, 4.16, 2, 18999, 32298.3
+13240, hyundi, I800, 2018, Automatic, 30459, 49019, Diesel, 31.7, 7.42, 2.5, 15999, 27198.3
+13245, bmw, Z4, 2020, Semi-Auto, 9, 14, Petrol, 38.7, 6.08, 2, 31990, 54383
+13248, vw, Arteon, 2019, Semi-Auto, 5500, 8851, Diesel, 50.4, 4.67, 2, 27111, 46088.7
+13249, merc, V Class, 2019, Automatic, 18625, 29974, Diesel, 48.7, 4.83, 2.1, 20750, 35275
+13250, vw, Caravelle, 2019, Automatic, 8997, 14479, Diesel, 33.6, 7, 2, 43999, 74798.3
+13256, bmw, X4, 2019, Semi-Auto, 7815, 12577, Petrol, 26.9, 8.74, 3, 45000, 76500
+13257, merc, V Class, 2018, Automatic, 12392, 19943, Diesel, 45.6, 5.16, 2.1, 32748, 55671.6
+13265, merc, S Class, 2015, Semi-Auto, 41472, 66743, Diesel, 51.4, 4.58, 3, 22995, 39091.5
+13273, hyundi, I800, 2018, Automatic, 34886, 56143, Diesel, 28, 8.4, 2.5, 14800, 25160
+13279, vw, Arteon, 2019, Semi-Auto, 6500, 10461, Petrol, 47.1, 4.99, 2, 28750, 48875
+13280, ford, KA, 2016, Manual, 52576, 84613, Petrol, 57.7, 4.08, 1.2, 4990, 8483
+13287, bmw, X6, 2014, Automatic, 35269, 56760, Diesel, 38.2, 6.16, 3, 18000, 30600
+13291, toyota, Avensis, 2018, Manual, 18785, 30231, Diesel, 67.3, 3.5, 1.6, 12667, 21533.9
+13295, bmw, M4, 2018, Manual, 9662, 15549, Petrol, 31, 7.59, 3, 36991, 62884.7
+13298, merc, X-CLASS, 2019, Automatic, 500, 805, Diesel, 35.8, 6.57, 2.3, 28945, 49206.5
+13299, vw, Beetle, 2014, Manual, 61917, 99646, Petrol, 46.3, 5.08, 1.2, 10000, 17000
+13305, bmw, X6, 2014, Automatic, 68787, 110702, Diesel, 37.7, 6.24, 3, 16750, 28475
+13306, hyundi, IX35, 2013, Manual, 72205, 116202, Diesel, 53.3, 4.41, 1.7, 6990, 11883
+13311, vw, CC, 2016, Semi-Auto, 24500, 39429, Diesel, 58.9, 3.99, 2, 12950, 22015
+13313, bmw, X4, 2019, Semi-Auto, 2294, 3692, Diesel, 40.9, 5.75, 3, 36980, 62866
+13314, toyota, Verso, 2017, Manual, 16836, 27095, Diesel, 62.8, 3.75, 1.6, 13995, 23791.5
+13315, merc, X-CLASS, 2019, Automatic, 37, 60, Diesel, 35.8, 6.57, 2.3, 28900, 49130
+13319, audi, A7, 2016, Automatic, 55500, 89318, Petrol, 29.7, 7.92, 4, 43000, 73100
+13326, bmw, 7 Series, 2019, Semi-Auto, 5364, 8632, Diesel, 44.1, 5.33, 3, 49990, 84983
+13328, audi, A8, 2018, Semi-Auto, 10961, 17640, Diesel, 48.7, 4.83, 3, 36496, 62043.2
+13329, merc, V Class, 2019, Automatic, 5500, 8851, Diesel, 45.6, 5.16, 2.1, 36998, 62896.6
+13335, vw, Caddy Maxi Life, 2019, Automatic, 4525, 7282, Diesel, 46.3, 5.08, 2, 18991, 32284.7
+13337, merc, M Class, 2014, Semi-Auto, 57573, 92655, Diesel, 46.3, 5.08, 2.1, 19194, 32629.8
+13338, merc, CLS Class, 2016, Semi-Auto, 29392, 47302, Diesel, 51.4, 4.58, 3, 21490, 36533
+13349, vw, CC, 2015, Semi-Auto, 21700, 34923, Diesel, 56.5, 4.16, 2, 17495, 29741.5
+13351, audi, A8, 2015, Automatic, 34899, 56164, Diesel, 47.9, 4.91, 3, 19100, 32470
+13352, hyundi, IX35, 2013, Automatic, 69652, 112094, Diesel, 39.2, 6, 2, 7490, 12733
+13355, vw, California, 2019, Automatic, 10501, 16900, Diesel, 32.1, 7.33, 2, 54999, 93498.3
+13361, bmw, i3, 2014, Automatic, 42479, 68363, Hybrid, 470.8, 0.5, 0, 15450, 26265
+13364, hyundi, I40, 2016, Manual, 61554, 99061, Diesel, 60.1, 3.91, 1.7, 8770, 14909
+13366, merc, GL Class, 2018, Manual, 24166, 38891, Petrol, 48.7, 4.83, 1.6, 18258, 31038.6
+13367, hyundi, Santa Fe, 2010, Manual, 72570, 116790, Diesel, 41.5, 5.67, 2.2, 6495, 11041.5
+13368, merc, GL Class, 2017, Automatic, 15309, 24637, Diesel, 64.2, 3.66, 2.1, 19299, 32808.3
+13371, hyundi, Santa Fe, 2019, Automatic, 100, 161, Diesel, 39.8, 5.91, 2.2, 36995, 62891.5
+13375, audi, RS6, 2020, Semi-Auto, 1500, 2414, Petrol, 22.1, 10.64, 4, 109495, 186141.5
+13377, audi, A7, 2019, Semi-Auto, 2999, 4826, Diesel, 35.8, 6.57, 3, 47990, 81583
+13383, ford, Grand C-MAX, 2015, Manual, 22304, 35895, Petrol, 54.3, 4.33, 1, 9100, 15470
+13384, vw, Caddy Maxi Life, 2016, Semi-Auto, 20625, 33193, Diesel, 54.3, 4.33, 2, 16495, 28041.5
+13386, ford, Grand C-MAX, 2016, Manual, 54727, 88074, Diesel, 64.2, 3.66, 1.5, 8599, 14618.3
+13387, merc, SLK, 2015, Automatic, 36860, 59320, Diesel, 56.5, 4.16, 2.1, 14995, 25491.5
+13393, ford, Tourneo Custom, 2016, Manual, 30010, 48296, Diesel, 44.1, 5.33, 2, 17998, 30596.6
+13400, toyota, Prius, 2017, Automatic, 23343, 37567, Hybrid, 94.1, 2.5, 1.8, 19750, 33575
+13406, merc, CLS Class, 2017, Automatic, 9165, 14750, Diesel, 51.4, 4.58, 3, 26166, 44482.2
+13408, merc, S Class, 2018, Semi-Auto, 1861, 2995, Petrol, 40.9, 5.75, 3, 57995, 98591.5
+13409, toyota, Avensis, 2017, Manual, 16355, 26321, Diesel, 67.3, 3.5, 1.6, 11995, 20391.5
+13413, merc, M Class, 2014, Automatic, 70308, 113149, Diesel, 44.8, 5.25, 2.1, 16087, 27347.9
+13414, merc, V Class, 2015, Automatic, 99960, 160870, Diesel, 45.6, 5.16, 2.1, 19500, 33150
+13416, hyundi, Santa Fe, 2016, Semi-Auto, 10278, 16541, Diesel, 42.2, 5.57, 2.2, 19990, 33983
+13419, bmw, M4, 2019, Semi-Auto, 25, 40, Petrol, 34, 6.92, 3, 45898, 78026.6
+13420, merc, SLK, 2015, Automatic, 21680, 34890, Diesel, 56.5, 4.16, 2.1, 15599, 26518.3
+13422, hyundi, I40, 2017, Manual, 22336, 35946, Diesel, 65.7, 3.58, 1.7, 11698, 19886.6
+13424, vw, Tiguan Allspace, 2019, Semi-Auto, 6091, 9802, Diesel, 44.1, 5.33, 2, 32562, 55355.4
+13432, vw, CC, 2013, Manual, 74000, 119091, Diesel, 60.1, 3.91, 2, 7990, 13583
+13433, ford, KA, 2011, Manual, 66561, 107119, Petrol, 57.7, 4.08, 1.2, 3698, 6286.6
+13438, vw, Scirocco, 2009, Manual, 35937, 57835, Petrol, 37.2, 6.32, 2, 7990, 13583
+13442, toyota, Prius, 2019, Automatic, 6053, 9741, Other, 217.3, 1.08, 1.8, 26700, 45390
+13443, vw, Scirocco, 2017, Automatic, 33103, 53274, Diesel, 53.3, 4.41, 2, 16500, 28050
+13446, ford, Galaxy, 2017, Manual, 33115, 53293, Diesel, 56.5, 4.16, 2, 17999, 30598.3
+13447, vw, Caravelle, 2019, Automatic, 10500, 16898, Diesel, 33.6, 7, 2, 56000, 95200
+13449, ford, KA, 2016, Manual, 33236, 53488, Petrol, 57.7, 4.08, 1.2, 4941, 8399.7
+13454, ford, KA, 2010, Manual, 48000, 77248, Petrol, 55.4, 4.25, 1.2, 2995, 5091.5
+13462, hyundi, Santa Fe, 2015, Semi-Auto, 46045, 74102, Diesel, 42.2, 5.57, 2.2, 16990, 28883
+13468, bmw, X7, 2019, Semi-Auto, 3300, 5311, Diesel, 33.6, 7, 3, 74140, 126038
+13472, vw, Jetta, 2017, Manual, 69222, 111402, Diesel, 67.3, 3.5, 2, 8852, 15048.4
+13473, toyota, Verso, 2017, Automatic, 10772, 17336, Petrol, 42.8, 5.5, 1.8, 15330, 26061
+13477, vw, Shuttle, 2019, Semi-Auto, 13859, 22304, Diesel, 32.8, 7.17, 2, 23329, 39659.3
+13478, ford, Grand C-MAX, 2017, Manual, 5859, 9429, Petrol, 54.3, 4.33, 1, 11500, 19550
+13479, ford, Galaxy, 2010, Manual, 113000, 181855, Diesel, 49.6, 4.74, 2, 5995, 10191.5
+13480, hyundi, IX35, 2014, Manual, 35452, 57054, Diesel, 50.4, 4.67, 1.7, 8498, 14446.6
+13496, audi, R8, 2013, Semi-Auto, 10800, 17381, Petrol, 22.4, 10.5, 4.2, 54850, 93245
+13503, toyota, Avensis, 2017, Manual, 24705, 39759, Petrol, 47.1, 4.99, 1.8, 12498, 21246.6
+13504, merc, X-CLASS, 2019, Automatic, 303, 488, Diesel, 31.4, 7.49, 3, 37891, 64414.7
+13505, ford, Edge, 2019, Semi-Auto, 3157, 5081, Diesel, 37.2, 6.32, 2, 32470, 55199
+13508, toyota, Hilux, 2019, Automatic, 5869, 9445, Diesel, 36.2, 6.5, 2.4, 33750, 57375
+13509, vw, Beetle, 2016, Manual, 11500, 18507, Petrol, 51.4, 4.58, 1.2, 11990, 20383
+13513, bmw, 8 Series, 2019, Automatic, 953, 1534, Petrol, 26.9, 8.74, 4.4, 73900, 125630
+13524, audi, Q8, 2020, Semi-Auto, 4174, 6717, Diesel, 30.7, 7.66, 4, 86995, 147891.5
+13525, toyota, Verso, 2016, Manual, 30671, 49360, Diesel, 62.8, 3.75, 1.6, 12495, 21241.5
+13526, bmw, M3, 2017, Semi-Auto, 14894, 23970, Petrol, 34, 6.92, 3, 38000, 64600
+13534, audi, A7, 2015, Automatic, 31000, 49890, Diesel, 58.9, 3.99, 3, 16990, 28883
+13535, hyundi, Santa Fe, 2019, Automatic, 5000, 8047, Diesel, 39.8, 5.91, 2.2, 36495, 62041.5
+13541, bmw, X6, 2016, Semi-Auto, 21088, 33938, Diesel, 47.1, 4.99, 3, 30891, 52514.7
+13547, audi, RS5, 2019, Automatic, 6000, 9656, Petrol, 29.7, 7.92, 2.9, 66990, 113883
+13551, merc, V Class, 2019, Automatic, 1253, 2017, Diesel, 36.2, 6.5, 2, 58800, 99960
+13552, bmw, M4, 2016, Semi-Auto, 23765, 38246, Petrol, 34, 6.92, 3, 34932, 59384.4
+13553, bmw, X4, 2016, Semi-Auto, 64000, 102998, Diesel, 54.3, 4.33, 2, 20022, 34037.4
+13558, ford, Galaxy, 2012, Manual, 75179, 120989, Diesel, 49.6, 4.74, 2, 7990, 13583
+13562, audi, RS4, 2019, Automatic, 5159, 8303, Petrol, 29.1, 8.08, 2.9, 59450, 101065
+13566, merc, M Class, 2014, Semi-Auto, 48928, 78742, Diesel, 46.3, 5.08, 2.1, 18500, 31450
+13573, bmw, X4, 2019, Semi-Auto, 1501, 2416, Diesel, 40.9, 5.75, 3, 41995, 71391.5
+13577, vw, Shuttle, 2020, Manual, 1000, 1609, Diesel, 37.7, 6.24, 2, 25199, 42838.3
+13581, bmw, Z4, 2020, Automatic, 2500, 4023, Petrol, 38.7, 6.08, 2, 35995, 61191.5
+13584, merc, M Class, 2013, Automatic, 66426, 106902, Diesel, 39.2, 6, 3, 15890, 27013
+13587, ford, Grand C-MAX, 2017, Manual, 29396, 47308, Diesel, 64.2, 3.66, 1.5, 11998, 20396.6
+13594, toyota, Avensis, 2018, Manual, 31174, 50170, Diesel, 61.4, 3.83, 2, 14495, 24641.5
+13595, ford, Edge, 2018, Manual, 18301, 29453, Diesel, 48.7, 4.83, 2, 19790, 33643
+13597, merc, GL Class, 2016, Semi-Auto, 64025, 103038, Diesel, 36.2, 6.5, 3, 29090, 49453
+13603, toyota, Hilux, 2017, Automatic, 20758, 33407, Diesel, 36.2, 6.5, 2.4, 19350, 32895
+13604, toyota, Avensis, 2017, Manual, 41211, 66323, Diesel, 67.3, 3.5, 1.6, 10800, 18360
+13610, bmw, 8 Series, 2020, Semi-Auto, 123, 198, Petrol, 33.2, 7.08, 3, 66991, 113884.7
+13619, hyundi, Santa Fe, 2019, Semi-Auto, 2715, 4369, Diesel, 42.8, 5.5, 2.2, 29995, 50991.5
+13620, audi, Q8, 2018, Automatic, 7000, 11265, Diesel, 33.6, 7, 3, 51495, 87541.5
+13621, toyota, Verso, 2017, Manual, 27553, 44342, Diesel, 62.8, 3.75, 1.6, 11998, 20396.6
+13622, audi, A7, 2018, Semi-Auto, 12958, 20854, Diesel, 52.3, 4.5, 3, 29900, 50830
+13624, bmw, X7, 2019, Semi-Auto, 4997, 8042, Diesel, 31.4, 7.49, 3, 69995, 118991.5
+13626, hyundi, I800, 2018, Automatic, 34103, 54883, Diesel, 33.6, 7, 2.5, 15299, 26008.3
+13627, ford, Tourneo Connect, 2018, Manual, 30000, 48280, Diesel, 64.2, 3.66, 1.5, 14999, 25498.3
+13628, toyota, Avensis, 2015, Manual, 68200, 109757, Diesel, 61.4, 3.83, 2, 6695, 11381.5
+13631, merc, GL Class, 2016, Automatic, 37989, 61137, Diesel, 36.2, 6.5, 3, 31988, 54379.6
+13634, audi, A8, 2019, Automatic, 5000, 8047, Diesel, 40.4, 5.82, 3, 47990, 81583
+13639, ford, KA, 2013, Manual, 30626, 49288, Petrol, 57.7, 4.08, 1.2, 3991, 6784.7
+13645, toyota, IQ, 2009, Manual, 74095, 119244, Petrol, 65.7, 3.58, 1, 2699, 4588.3
+13647, ford, Puma, 2020, Manual, 384, 618, Petrol, 49.6, 4.74, 1, 24500, 41650
+13649, toyota, GT86, 2019, Manual, 7056, 11356, Petrol, 33.2, 7.08, 2, 25121, 42705.7
+13651, ford, Tourneo Custom, 2016, Manual, 26807, 43142, Diesel, 46.3, 5.08, 2, 16798, 28556.6
+13652, toyota, Avensis, 2016, Manual, 55086, 88652, Diesel, 67.3, 3.5, 1.6, 10995, 18691.5
+13654, hyundi, Santa Fe, 2020, Semi-Auto, 985, 1585, Diesel, 39.2, 6, 2.2, 36990, 62883
+13655, bmw, X4, 2020, Semi-Auto, 117, 188, Diesel, 40.9, 5.75, 3, 53630, 91171
+13662, audi, A8, 2015, Automatic, 30306, 48773, Petrol, 25, 9.41, 6.3, 32000, 54400
+13665, audi, R8, 2008, Automatic, 52500, 84490, Petrol, 21, 11.2, 4.2, 33950, 57715
+13666, hyundi, I800, 2018, Manual, 37324, 60067, Diesel, 28, 8.4, 2.5, 15998, 27196.6
+13668, hyundi, I40, 2013, Manual, 58232, 93715, Diesel, 65.7, 3.58, 1.7, 7191, 12224.7
+13670, hyundi, IX20, 2017, Automatic, 27347, 44011, Petrol, 43.5, 5.41, 1.6, 10499, 17848.3
+13672, merc, CLA Class, 2016, Manual, 37756, 60762, Diesel, 67.3, 3.5, 2.1, 15800, 26860
+13678, hyundi, IX20, 2016, Manual, 51500, 82881, Diesel, 64.2, 3.66, 1.6, 8995, 15291.5
+13682, merc, CLS Class, 2019, Automatic, 2611, 4202, Diesel, 48.7, 4.83, 2.9, 38444, 65354.8
+13684, merc, GLB Class, 2020, Semi-Auto, 1500, 2414, Diesel, 44.8, 5.25, 2, 36995, 62891.5
+13689, audi, RS6, 2016, Semi-Auto, 37703, 60677, Petrol, 29.4, 8, 4, 47850, 81345
+13690, hyundi, I40, 2015, Manual, 25350, 40797, Diesel, 67.3, 3.5, 1.7, 9495, 16141.5
+13692, merc, CLS Class, 2019, Semi-Auto, 4977, 8010, Diesel, 47.9, 4.91, 2.9, 47899, 81428.3
+13695, vw, Beetle, 2017, Manual, 17859, 28741, Petrol, 53.3, 4.41, 0, 13800, 23460
+13698, merc, S Class, 2015, Automatic, 11000, 17703, Petrol, 33.2, 7.08, 4.7, 38980, 66266
+13700, vw, Caddy Maxi Life, 2017, Manual, 39680, 63859, Diesel, 58.9, 3.99, 2, 13950, 23715
+13702, vw, Arteon, 2019, Automatic, 3500, 5633, Other, 47.1, 4.99, 2, 27495, 46741.5
+13707, toyota, GT86, 2016, Semi-Auto, 19460, 31318, Petrol, 39.8, 5.91, 2, 15995, 27191.5
+13712, toyota, IQ, 2009, Manual, 43000, 69202, Petrol, 65.7, 3.58, 1, 3495, 5941.5
+13713, vw, Scirocco, 2014, Manual, 69775, 112292, Diesel, 53.3, 4.41, 2, 9298, 15806.6
+13716, hyundi, I800, 2019, Manual, 15997, 25745, Diesel, 31.7, 7.42, 2.5, 18499, 31448.3
+13719, audi, RS5, 2014, Semi-Auto, 39210, 63102, Petrol, 26.9, 8.74, 4.2, 23400, 39780
+13721, bmw, X6, 2019, Semi-Auto, 13000, 20921, Diesel, 44.8, 5.25, 3, 41780, 71026
+13729, ford, Grand C-MAX, 2013, Manual, 35765, 57558, Diesel, 60.1, 3.91, 1.6, 6597, 11214.9
+13730, bmw, X4, 2017, Semi-Auto, 30485, 49061, Diesel, 47.9, 4.91, 3, 26491, 45034.7
+13731, vw, Shuttle, 2019, Manual, 8329, 13404, Diesel, 38.2, 6.16, 2, 19995, 33991.5
+13733, hyundi, I40, 2019, Manual, 20, 32, Diesel, 52.3, 4.5, 1.6, 16000, 27200
+13736, hyundi, I800, 2019, Manual, 2544, 4094, Diesel, 31.7, 7.42, 2.5, 19998, 33996.6
+13742, toyota, Avensis, 2017, Manual, 18089, 29111, Petrol, 45.6, 5.16, 1.8, 14999, 25498.3
+13746, ford, Grand C-MAX, 2015, Manual, 33746, 54309, Diesel, 60.1, 3.91, 1.6, 8879, 15094.3
+13751, audi, S4, 2019, Automatic, 4129, 6645, Diesel, 40.4, 5.82, 0, 39850, 67745
+13755, vw, Arteon, 2019, Semi-Auto, 50, 80, Petrol, 47.1, 4.99, 2, 29498, 50146.6
+13756, vw, Arteon, 2018, Semi-Auto, 21194, 34108, Petrol, 47.1, 4.99, 2, 19498, 33146.6
+13759, ford, Galaxy, 2016, Manual, 32170, 51772, Diesel, 56.5, 4.16, 2, 14999, 25498.3
+13767, bmw, 6 Series, 2006, Automatic, 126054, 202864, Petrol, 29.7, 7.92, 3, 4999, 8498.3
+13768, merc, GL Class, 2018, Automatic, 24632, 39641, Diesel, 56.5, 4.16, 2.1, 27499, 46748.3
+13771, bmw, Z4, 2004, Manual, 114000, 183465, Petrol, 32.1, 7.33, 2.2, 1995, 3391.5
+13774, toyota, Prius, 2015, Automatic, 28254, 45470, Other, 64.2, 3.66, 1.8, 21790, 37043
+13775, toyota, Verso, 2017, Semi-Auto, 19856, 31955, Petrol, 42.8, 5.5, 1.8, 13995, 23791.5
+13776, hyundi, IX20, 2018, Manual, 2259, 3635, Petrol, 37.2, 6.32, 1.6, 15495, 26341.5
+13781, hyundi, Santa Fe, 2016, Semi-Auto, 26317, 42353, Diesel, 42.8, 5.5, 2.2, 18797, 31954.9
+13785, vw, Caddy Maxi Life, 2019, Semi-Auto, 9793, 15760, Diesel, 58.9, 3.99, 2, 20994, 35689.8
+13787, merc, X-CLASS, 2019, Automatic, 8798, 14159, Diesel, 31.4, 7.49, 3, 34491, 58634.7
+13788, toyota, Prius, 2015, Automatic, 11872, 19106, Hybrid, 64.2, 3.66, 1.8, 22995, 39091.5
+13789, hyundi, IX20, 2013, Manual, 85000, 136794, Petrol, 45.6, 5.16, 1.4, 4799, 8158.3
+13791, vw, Caravelle, 2020, Semi-Auto, 15, 24, Diesel, 32.8, 7.17, 2, 45450, 77265
+13792, hyundi, I800, 2019, Manual, 2804, 4513, Diesel, 28, 8.4, 2.5, 21498, 36546.6
+13793, audi, A7, 2017, Semi-Auto, 47800, 76926, Petrol, 29.7, 7.92, 4, 31000, 52700
+13795, ford, KA, 2015, Manual, 35130, 56536, Petrol, 57.7, 4.08, 1.2, 5000, 8500
+13797, bmw, i3, 2017, Automatic, 41146, 66218, Hybrid, 470.8, 0.5, 0, 19998, 33996.6
+13804, vw, Caddy, 2016, Manual, 20688, 33294, Diesel, 60.1, 3.91, 2, 12995, 22091.5
+13812, toyota, Hilux, 2016, Automatic, 30848, 49645, Diesel, 32.8, 7.17, 3, 19498, 33146.6
+13813, vw, Caddy Maxi Life, 2019, Semi-Auto, 11971, 19265, Diesel, 54.3, 4.33, 2, 19495, 33141.5
+13814, hyundi, IX20, 2017, Automatic, 11058, 17796, Petrol, 43.5, 5.41, 1.6, 9995, 16991.5
+13820, bmw, M4, 2019, Automatic, 3395, 5464, Petrol, 34, 6.92, 3, 58662, 99725.4
+13825, hyundi, IX35, 2015, Automatic, 24128, 38830, Diesel, 41.5, 5.67, 2, 12500, 21250
+13828, toyota, Prius, 2016, Automatic, 24572, 39545, Hybrid, 94.1, 2.5, 1.8, 17250, 29325
+13830, merc, S Class, 2020, Semi-Auto, 3999, 6436, Diesel, 40.4, 5.82, 3, 64980, 110466
+13831, merc, GL Class, 2015, Manual, 29053, 46756, Diesel, 64.2, 3.66, 2.1, 14999, 25498.3
+13833, bmw, Z4, 2020, Automatic, 110, 177, Petrol, 38.7, 6.08, 2, 30000, 51000
+13834, vw, Caravelle, 2019, Semi-Auto, 8022, 12910, Diesel, 33.6, 7, 2, 43000, 73100
+13837, hyundi, Santa Fe, 2018, Automatic, 12743, 20508, Diesel, 39.2, 6, 2.2, 31394, 53369.8
+13838, vw, Scirocco, 2016, Automatic, 23420, 37691, Diesel, 62.8, 3.75, 2, 15300, 26010
+13842, toyota, Prius, 2014, Automatic, 23000, 37015, Hybrid, 68.9, 3.41, 1.8, 18750, 31875
+13845, vw, Scirocco, 2015, Semi-Auto, 75923, 122186, Diesel, 53.3, 4.41, 2, 12142, 20641.4
+13847, hyundi, IX20, 2017, Automatic, 19500, 31382, Petrol, 43.5, 5.41, 1.6, 9995, 16991.5
+13850, ford, Edge, 2016, Manual, 29886, 48097, Diesel, 48.7, 4.83, 2, 16991, 28884.7
+13854, hyundi, Santa Fe, 2018, Semi-Auto, 8400, 13518, Diesel, 39.8, 5.91, 2.2, 29495, 50141.5
+13856, bmw, X4, 2019, Semi-Auto, 8454, 13605, Diesel, 42.8, 5.5, 2, 36990, 62883
+13865, ford, KA, 2015, Manual, 15155, 24390, Petrol, 57.7, 4.08, 1.2, 4810, 8177
+13869, ford, Edge, 2017, Semi-Auto, 35000, 56327, Diesel, 47.9, 4.91, 2, 19750, 33575
+13872, vw, Amarok, 2019, Automatic, 3500, 5633, Diesel, 28.3, 8.31, 3, 33995, 57791.5
+13875, merc, CLA Class, 2018, Automatic, 11751, 18911, Petrol, 52.3, 4.5, 1.6, 18100, 30770
+13877, hyundi, I800, 2016, Automatic, 53292, 85765, Diesel, 33.6, 7, 2.5, 13110, 22287
+13878, vw, Scirocco, 2016, Manual, 17615, 28349, Petrol, 47.1, 4.99, 2, 13495, 22941.5
+13882, ford, Mustang, 2018, Manual, 15744, 25337, Petrol, 20.9, 11.25, 5, 28489, 48431.3
+13885, bmw, X4, 2019, Semi-Auto, 10, 16, Diesel, 40.9, 5.75, 3, 38997, 66294.9
+13889, toyota, Prius, 2017, Automatic, 25606, 41209, Other, 68.9, 3.41, 1.8, 21700, 36890
+13890, merc, SLK, 2013, Semi-Auto, 37411, 60207, Diesel, 56.5, 4.16, 2, 11991, 20384.7
+13892, hyundi, I40, 2017, Manual, 33067, 53216, Diesel, 65.7, 3.58, 1.7, 11485, 19524.5
+13895, hyundi, Santa Fe, 2017, Semi-Auto, 21615, 34786, Diesel, 42.8, 5.5, 2.2, 17998, 30596.6
+13897, merc, CLS Class, 2013, Automatic, 59210, 95289, Diesel, 46.3, 5.08, 3, 12795, 21751.5
+13901, ford, Grand C-MAX, 2017, Manual, 20366, 32776, Petrol, 54.3, 4.33, 1, 10607, 18031.9
+13903, vw, Caddy Maxi Life, 2019, Automatic, 13411, 21583, Diesel, 44.1, 5.33, 2, 18450, 31365
+13906, bmw, 6 Series, 2019, Semi-Auto, 8004, 12881, Diesel, 47.9, 4.91, 3, 35980, 61166
+13909, audi, A7, 2016, Semi-Auto, 8915, 14347, Diesel, 52.3, 4.5, 3, 26950, 45815
+13914, audi, Q8, 2019, Automatic, 5800, 9334, Diesel, 30.7, 7.66, 4, 89750, 152575
+13915, toyota, GT86, 2020, Manual, 999, 1608, Petrol, 33.2, 7.08, 2, 29769, 50607.3
+13922, merc, V Class, 2019, Semi-Auto, 7415, 11933, Diesel, 45.6, 5.16, 2.2, 40995, 69691.5
+13925, merc, S Class, 2019, Automatic, 1912, 3077, Petrol, 34, 6.92, 4, 86399, 146878.3
+13926, vw, Tiguan Allspace, 2019, Automatic, 8196, 13190, Diesel, 38.7, 6.08, 2, 29490, 50133
+13927, toyota, Prius, 2014, Automatic, 22271, 35842, Hybrid, 64.2, 3.66, 1.8, 19995, 33991.5
+13928, bmw, X4, 2020, Automatic, 100, 161, Petrol, 26.9, 8.74, 3, 44899, 76328.3
+13929, ford, KA, 2010, Manual, 91811, 147755, Petrol, 55.4, 4.25, 1.2, 2991, 5084.7
+13930, toyota, Verso, 2012, Manual, 65700, 105734, Diesel, 53.3, 4.41, 2, 5995, 10191.5
+13934, merc, X-CLASS, 2019, Automatic, 9160, 14742, Diesel, 35.8, 6.57, 2.3, 23996, 40793.2
+13935, toyota, Avensis, 2009, Manual, 89000, 143231, Diesel, 54.3, 4.33, 2, 4994, 8489.8
+13944, bmw, 7 Series, 2019, Semi-Auto, 5000, 8047, Petrol, 34.5, 6.82, 3, 48898, 83126.6
+13945, ford, Fusion, 2010, Manual, 83000, 133575, Petrol, 43.5, 5.41, 1.4, 1795, 3051.5
+13947, ford, Grand C-MAX, 2018, Automatic, 9377, 15091, Diesel, 51.4, 4.58, 1.5, 13999, 23798.3
+13953, vw, Tiguan Allspace, 2019, Semi-Auto, 3792, 6103, Petrol, 35.8, 6.57, 1.5, 31291, 53194.7
+13955, hyundi, I40, 2019, Manual, 8178, 13161, Petrol, 38.2, 6.16, 1.6, 16250, 27625
+13958, hyundi, IX20, 2015, Automatic, 12000, 19312, Petrol, 43.6, 5.39, 1.6, 8495, 14441.5
+13959, vw, Amarok, 2015, Automatic, 32800, 52786, Diesel, 35.3, 6.66, 2, 17995, 30591.5
+13966, merc, CLA Class, 2019, Automatic, 3128, 5034, Petrol, 40.9, 5.75, 2, 28680, 48756
+13967, audi, R8, 2019, Semi-Auto, 4000, 6437, Petrol, 21.4, 10.99, 5.2, 129000, 219300
+13969, merc, CLS Class, 2019, Semi-Auto, 11763, 18931, Diesel, 47.9, 4.91, 2.9, 41999, 71398.3
+13972, bmw, 7 Series, 2019, Semi-Auto, 5893, 9484, Diesel, 44.1, 5.33, 3, 45898, 78026.6
+13978, audi, A7, 2018, Semi-Auto, 19112, 30758, Petrol, 39.8, 5.91, 3, 38500, 65450
+13991, ford, Edge, 2017, Semi-Auto, 20746, 33387, Diesel, 47.9, 4.91, 2, 23500, 39950
+13994, vw, Arteon, 2018, Semi-Auto, 26009, 41857, Petrol, 47.1, 4.99, 2, 22175, 37697.5
+13998, hyundi, Santa Fe, 2017, Manual, 30142, 48509, Diesel, 47.1, 4.99, 2.2, 17295, 29401.5
+14001, bmw, X4, 2019, Automatic, 3201, 5151, Diesel, 40.4, 5.82, 3, 39480, 67116
+14005, audi, A8, 2019, Automatic, 3000, 4828, Diesel, 40.4, 5.82, 3, 47990, 81583
+14006, toyota, Verso, 2017, Manual, 9700, 15611, Petrol, 41.5, 5.67, 1.6, 11395, 19371.5
+14008, vw, CC, 2016, Automatic, 53555, 86188, Diesel, 58.9, 3.99, 2, 11495, 19541.5
+14009, hyundi, Santa Fe, 2015, Semi-Auto, 54000, 86904, Diesel, 42.2, 5.57, 2.2, 14500, 24650
+14019, vw, Caravelle, 2019, Automatic, 11441, 18412, Diesel, 33.6, 7, 2, 33495, 56941.5
+14020, toyota, Verso, 2016, Manual, 19417, 31249, Petrol, 41.5, 5.67, 1.6, 11691, 19874.7
+14026, bmw, 7 Series, 2019, Semi-Auto, 1075, 1730, Diesel, 41.5, 5.67, 3, 47975, 81557.5
+14029, vw, Shuttle, 2019, Semi-Auto, 11320, 18218, Diesel, 32.8, 7.17, 2, 26994, 45889.8
+14037, merc, CLS Class, 2016, Semi-Auto, 20306, 32679, Diesel, 51.4, 4.58, 3, 21998, 37396.6
+14038, hyundi, I800, 2019, Manual, 17124, 27558, Diesel, 31.7, 7.42, 2.5, 18430, 31331
+14039, merc, S Class, 2013, Automatic, 56061, 90221, Hybrid, 44.8, 5.25, 3.5, 24530, 41701
+14042, ford, Edge, 2017, Manual, 48000, 77248, Diesel, 48.7, 4.83, 2, 17495, 29741.5
+14044, toyota, Avensis, 2016, Manual, 7800, 12553, Diesel, 62.8, 3.75, 2, 11499, 19548.3
+14048, ford, Tourneo Custom, 2016, Manual, 11960, 19248, Diesel, 44.8, 5.25, 2, 19698, 33486.6
+14058, ford, Edge, 2017, Manual, 18111, 29147, Diesel, 48.7, 4.83, 2, 18990, 32283
+14063, hyundi, I40, 2014, Automatic, 66200, 106538, Diesel, 47.1, 4.99, 1.7, 7995, 13591.5
+14065, vw, Arteon, 2018, Automatic, 2570, 4136, Petrol, 40.4, 5.82, 1.5, 22000, 37400
+14071, merc, CLA Class, 2016, Automatic, 32754, 52712, Diesel, 67.3, 3.5, 2.1, 15944, 27104.8
+14072, bmw, M4, 2019, Semi-Auto, 102, 164, Petrol, 34, 6.92, 3, 41945, 71306.5
+14078, ford, Galaxy, 2018, Manual, 11704, 18836, Diesel, 55.4, 4.25, 2, 21500, 36550
+14079, hyundi, IX20, 2017, Manual, 23195, 37329, Petrol, 50.4, 4.67, 1.4, 8499, 14448.3
+14080, hyundi, Santa Fe, 2016, Manual, 34284, 55175, Diesel, 47.1, 4.99, 2.2, 18491, 31434.7
+14091, toyota, Prius, 2016, Automatic, 30994, 49880, Hybrid, 94.1, 2.5, 1.8, 16999, 28898.3
+14097, vw, Eos, 2014, Manual, 58000, 93342, Diesel, 58.9, 3.99, 2, 8950, 15215
+14098, toyota, Prius, 2017, Automatic, 12930, 20809, Hybrid, 64.2, 3.66, 1.8, 24999, 42498.3
+14099, toyota, Avensis, 2016, Manual, 19862, 31965, Diesel, 67.3, 3.5, 1.6, 9990, 16983
+14100, hyundi, Santa Fe, 2018, Automatic, 17189, 27663, Diesel, 42.8, 5.5, 2.2, 21995, 37391.5
+14102, bmw, M5, 2019, Semi-Auto, 5000, 8047, Petrol, 26.9, 8.74, 4.4, 63980, 108766
+14105, hyundi, IX35, 2014, Manual, 50000, 80467, Diesel, 53.3, 4.41, 1.7, 8275, 14067.5
+14107, vw, Beetle, 2001, Manual, 110000, 177027, Petrol, 49.6, 4.74, 1.6, 1295, 2201.5
+14110, merc, CLS Class, 2015, Semi-Auto, 22067, 35513, Diesel, 57.7, 4.08, 2.1, 18999, 32298.3
+14111, ford, Grand Tourneo Connect, 2019, Manual, 11500, 18507, Diesel, 46.3, 5.08, 1.5, 14998, 25496.6
+14120, ford, Puma, 2019, Manual, 780, 1255, Petrol, 50.4, 4.67, 1, 21700, 36890
+14126, merc, S Class, 2015, Automatic, 23156, 37266, Petrol, 28, 8.4, 5.5, 51990, 88383
+14130, hyundi, IX35, 2014, Manual, 57675, 92819, Diesel, 53.3, 4.41, 1.7, 7530, 12801
+14140, ford, Grand Tourneo Connect, 2018, Automatic, 8354, 13444, Diesel, 56.6, 4.16, 1.5, 17298, 29406.6
+14150, ford, KA, 2014, Manual, 22609, 36386, Petrol, 57.7, 4.08, 1.2, 4898, 8326.6
+14151, merc, S Class, 2019, Automatic, 2528, 4068, Diesel, 48.7, 4.83, 3, 62799, 106758.3
+14154, bmw, M4, 2016, Semi-Auto, 32866, 52893, Petrol, 34, 6.92, 3, 30485, 51824.5
+14156, merc, S Class, 2015, Semi-Auto, 28191, 45369, Diesel, 47.9, 4.91, 3, 24498, 41646.6
+14161, hyundi, IX20, 2016, Manual, 30565, 49189, Petrol, 50.4, 4.67, 1.4, 7998, 13596.6
+14172, hyundi, IX20, 2015, Automatic, 43000, 69202, Petrol, 43.6, 5.39, 1.6, 7495, 12741.5
+14173, audi, A7, 2019, Semi-Auto, 5658, 9106, Diesel, 38.2, 6.16, 3, 36450, 61965
+14177, vw, Caravelle, 2013, Automatic, 46000, 74030, Diesel, 35.3, 6.66, 2, 22995, 39091.5
+14178, ford, Edge, 2018, Semi-Auto, 13122, 21118, Diesel, 47.9, 4.91, 2, 24850, 42245
+14180, vw, Scirocco, 2015, Automatic, 17129, 27566, Diesel, 57.6, 4.08, 2, 12995, 22091.5
+14181, ford, KA, 2018, Manual, 7973, 12831, Petrol, 57.7, 4.08, 1.2, 9250, 15725
+14182, bmw, i3, 2015, Automatic, 79830, 128474, Hybrid, 470.8, 0.5, 0, 12500, 21250
+14183, toyota, Verso, 2016, Automatic, 13000, 20921, Petrol, 42.8, 5.5, 1.8, 14995, 25491.5
+14184, bmw, i8, 2014, Automatic, 41237, 66364, Hybrid, 134.5, 1.75, 1.5, 43497, 73944.9
+14186, ford, Tourneo Connect, 2016, Manual, 72777, 117123, Diesel, 64.2, 3.66, 1.5, 9000, 15300
+14189, bmw, i3, 2017, Automatic, 21025, 33836, Hybrid, 470.8, 0.5, 0, 22495, 38241.5
+14191, toyota, GT86, 2017, Manual, 20219, 32539, Petrol, 36.2, 6.5, 2, 18250, 31025
+14199, toyota, GT86, 2012, Automatic, 74599, 120055, Petrol, 39.8, 5.91, 2, 9995, 16991.5
+14201, bmw, 7 Series, 2016, Automatic, 30194, 48592, Diesel, 54.3, 4.33, 3, 26800, 45560
+14204, merc, X-CLASS, 2018, Automatic, 3900, 6276, Diesel, 35.8, 6.57, 2.3, 23000, 39100
+14210, toyota, Hilux, 2018, Automatic, 26000, 41843, Diesel, 36.2, 6.5, 2.4, 22495, 38241.5
+14211, vw, Scirocco, 2016, Manual, 18092, 29116, Petrol, 47.1, 4.99, 2, 16499, 28048.3
+14215, vw, Arteon, 2020, Semi-Auto, 4688, 7545, Diesel, 50.4, 4.67, 2, 31991, 54384.7
+14218, merc, SLK, 2002, Automatic, 80586, 129690, Petrol, 30.7, 7.66, 2, 2990, 5083
+14219, merc, CLS Class, 2015, Semi-Auto, 44192, 71120, Diesel, 56.5, 4.16, 2.1, 16590, 28203
+14220, ford, Galaxy, 2017, Manual, 48533, 78106, Diesel, 56.5, 4.16, 2, 16995, 28891.5
+14221, vw, Jetta, 2015, Manual, 28120, 45255, Diesel, 70.6, 3.33, 2, 9690, 16473
+14226, vw, Scirocco, 2017, Semi-Auto, 18739, 30157, Diesel, 53.3, 4.41, 2, 16500, 28050
+14230, vw, Caravelle, 2019, Semi-Auto, 1099, 1769, Diesel, 32.8, 7.17, 2, 35495, 60341.5
+14234, vw, CC, 2013, Manual, 23255, 37425, Diesel, 60.1, 3.91, 2, 9998, 16996.6
+14245, ford, Grand C-MAX, 2016, Manual, 12548, 20194, Diesel, 64.2, 3.66, 1.5, 11500, 19550
+14246, bmw, 7 Series, 2017, Semi-Auto, 28338, 45605, Diesel, 56.5, 4.16, 3, 35464, 60288.8
+14248, ford, Edge, 2016, Manual, 24984, 40208, Diesel, 48.7, 4.83, 2, 17750, 30175
+14251, merc, GL Class, 2016, Semi-Auto, 17000, 27359, Diesel, 36.2, 6.5, 3, 38362, 65215.4
+14257, toyota, Avensis, 2017, Automatic, 18953, 30502, Petrol, 47.1, 4.99, 1.8, 16495, 28041.5
+14259, merc, M Class, 2011, Automatic, 75000, 120701, Diesel, 31, 7.59, 3, 13150, 22355
+14262, merc, GL Class, 2016, Automatic, 32293, 51970, Diesel, 67.3, 3.5, 2.1, 16999, 28898.3
+14264, vw, Arteon, 2019, Semi-Auto, 6198, 9975, Petrol, 40.4, 5.82, 1.5, 27490, 46733
+14267, merc, S Class, 2019, Automatic, 618, 995, Diesel, 52.3, 4.5, 3, 63999, 108798.3
+14273, hyundi, IX35, 2010, Manual, 62000, 99779, Diesel, 47.9, 4.91, 2, 5995, 10191.5
+14278, ford, Grand Tourneo Connect, 2017, Manual, 14825, 23858, Diesel, 61.4, 3.83, 1.5, 12750, 21675
+14280, bmw, M4, 2020, Automatic, 10, 16, Petrol, 34, 6.92, 3, 45488, 77329.6
+14286, toyota, Prius, 2017, Automatic, 39158, 63019, Hybrid, 94.1, 2.5, 1.8, 19980, 33966
+14287, ford, Galaxy, 2016, Manual, 25405, 40885, Diesel, 56.5, 4.16, 2, 16387, 27857.9
+14288, ford, Tourneo Connect, 2015, Manual, 28309, 45559, Diesel, 58.9, 3.99, 1.6, 10298, 17506.6
+14291, merc, S Class, 2019, Semi-Auto, 1042, 1677, Diesel, 52.3, 4.5, 3, 46998, 79896.6
+14298, merc, M Class, 2009, Automatic, 86000, 138403, Diesel, 30.4, 7.74, 3, 8995, 15291.5
+14301, audi, A8, 2019, Automatic, 1000, 1609, Diesel, 40.4, 5.82, 3, 39995, 67991.5
+14304, ford, Edge, 2017, Manual, 19027, 30621, Diesel, 48.7, 4.83, 2, 19600, 33320
+14305, audi, S3, 2017, Automatic, 25000, 40234, Petrol, 43.5, 5.41, 2, 25850, 43945
+14306, toyota, Prius, 2016, Automatic, 19391, 31207, Hybrid, 85.6, 2.75, 1.8, 18915, 32155.5
+14307, hyundi, Santa Fe, 2019, Semi-Auto, 7984, 12849, Diesel, 39.8, 5.91, 2.2, 29850, 50745
+14309, toyota, Verso, 2017, Manual, 20501, 32993, Petrol, 41.5, 5.67, 1.6, 12490, 21233
+14313, vw, Scirocco, 2016, Semi-Auto, 67366, 108415, Diesel, 58.9, 3.99, 2, 12160, 20672
+14314, bmw, 8 Series, 2020, Semi-Auto, 6374, 10258, Diesel, 26.7, 8.81, 3, 61485, 104524.5
+14318, vw, Scirocco, 2017, Manual, 22575, 36331, Petrol, 47.1, 4.99, 2, 16250, 27625
+14326, audi, Q8, 2019, Semi-Auto, 2423, 3899, Diesel, 33.6, 7, 3, 49750, 84575
+14327, ford, KA, 2015, Manual, 28192, 45371, Petrol, 57.7, 4.08, 1.2, 5200, 8840
+14331, toyota, Prius, 2017, Automatic, 68812, 110742, Hybrid, 94.1, 2.5, 1.8, 15698, 26686.6
+14332, hyundi, I40, 2015, Manual, 39779, 64018, Diesel, 65.7, 3.58, 1.7, 9995, 16991.5
+14333, vw, Amarok, 2015, Automatic, 97834, 157448, Diesel, 35.3, 6.66, 2, 12995, 22091.5
+14343, ford, Mustang, 2017, Semi-Auto, 9511, 15306, Petrol, 23.5, 10.01, 5, 31317, 53238.9
+14351, merc, SLK, 2001, Manual, 56785, 91386, Petrol, 25.5, 9.22, 3.2, 4990, 8483
+14354, hyundi, I800, 2019, Manual, 17972, 28923, Diesel, 28, 8.4, 2.5, 17998, 30596.6
+14360, bmw, 7 Series, 2019, Automatic, 2000, 3219, Hybrid, 113, 2.08, 2, 49000, 83300
+14367, bmw, Z4, 2013, Semi-Auto, 26356, 42416, Petrol, 41.5, 5.67, 2, 13640, 23188
+14370, hyundi, I800, 2019, Automatic, 10124, 16293, Diesel, 28, 8.4, 2.5, 21980, 37366
+14371, hyundi, IX20, 2016, Manual, 19999, 32185, Petrol, 50.4, 4.67, 1.4, 8399, 14278.3
+14375, bmw, X4, 2019, Automatic, 5769, 9284, Diesel, 37.2, 6.32, 3, 41980, 71366
+14377, merc, S Class, 2017, Automatic, 21600, 34762, Diesel, 52.3, 4.5, 2.9, 41990, 71383
+14382, merc, CLS Class, 2015, Automatic, 46085, 74166, Diesel, 51.4, 4.58, 3, 18680, 31756
+14383, bmw, 6 Series, 2016, Automatic, 47148, 75877, Diesel, 49.6, 4.74, 3, 20610, 35037
+14387, audi, RS4, 2018, Semi-Auto, 33827, 54439, Petrol, 32.1, 7.33, 2.9, 49990, 84983
+14391, hyundi, IX20, 2018, Manual, 11038, 17764, Petrol, 50.4, 4.67, 1.4, 10195, 17331.5
+14394, merc, S Class, 2015, Semi-Auto, 64518, 103831, Diesel, 48.7, 4.83, 3, 25999, 44198.3
+14395, toyota, Prius, 2016, Automatic, 53500, 86100, Hybrid, 68.9, 3.41, 1.8, 17495, 29741.5
+14399, bmw, Z4, 2020, Semi-Auto, 10, 16, Petrol, 37.2, 6.32, 2, 32490, 55233
+14401, bmw, 6 Series, 2008, Automatic, 72000, 115872, Diesel, 40.9, 5.75, 3, 8490, 14433
+14404, ford, Grand C-MAX, 2017, Manual, 41000, 65983, Petrol, 54.3, 4.33, 1, 10900, 18530
+14406, ford, Grand C-MAX, 2011, Manual, 92785, 149323, Petrol, 40.9, 5.75, 1.6, 5000, 8500
+14409, audi, A8, 2018, Semi-Auto, 8872, 14278, Diesel, 48.7, 4.83, 3, 38990, 66283
+14410, vw, Jetta, 2015, Manual, 65015, 104631, Diesel, 70.6, 3.33, 2, 6999, 11898.3
+14411, hyundi, IX35, 2013, Manual, 80465, 129496, Diesel, 53.3, 4.41, 1.7, 6998, 11896.6
+14420, bmw, M2, 2019, Manual, 4534, 7297, Petrol, 28.5, 8.25, 3, 46000, 78200
+14421, ford, Grand C-MAX, 2016, Automatic, 26035, 41899, Diesel, 58.9, 3.99, 1.5, 9793, 16648.1
+14423, hyundi, IX20, 2015, Manual, 27328, 43980, Petrol, 50.4, 4.67, 1.4, 8032, 13654.4
+14424, bmw, i3, 2017, Automatic, 3976, 6399, Hybrid, 470.8, 0.5, 0, 22999, 39098.3
+14427, bmw, M4, 2019, Automatic, 123, 198, Petrol, 34, 6.92, 3, 41490, 70533
+14431, hyundi, Santa Fe, 2016, Manual, 19454, 31308, Diesel, 47.1, 4.99, 2.2, 20995, 35691.5
+14440, bmw, X4, 2018, Semi-Auto, 21694, 34913, Diesel, 54.3, 4.33, 2, 25980, 44166
+14444, merc, CLS Class, 2019, Semi-Auto, 7101, 11428, Diesel, 47.9, 4.91, 2.9, 44799, 76158.3
+14447, hyundi, IX20, 2017, Manual, 12689, 20421, Petrol, 50.4, 4.67, 1.4, 9750, 16575
+14448, merc, V Class, 2018, Automatic, 26500, 42648, Diesel, 45.6, 5.16, 2.1, 35990, 61183
+14450, toyota, Prius, 2019, Automatic, 9776, 15733, Hybrid, 64.2, 3.66, 1.8, 22998, 39096.6
+14451, vw, Jetta, 2017, Semi-Auto, 12649, 20357, Petrol, 55.4, 4.25, 1.4, 11490, 19533
+14452, toyota, Hilux, 2017, Automatic, 17235, 27737, Diesel, 36.2, 6.5, 2.4, 21998, 37396.6
+14453, hyundi, Santa Fe, 2017, Semi-Auto, 40124, 64573, Diesel, 42.8, 5.5, 2.2, 17998, 30596.6
+14456, ford, Edge, 2016, Manual, 13778, 22173, Diesel, 47.9, 4.91, 2, 21750, 36975
+14463, bmw, Z4, 2020, Semi-Auto, 105, 169, Petrol, 38.7, 6.08, 2, 30990, 52683
+14466, hyundi, I40, 2016, Manual, 14335, 23070, Diesel, 67.3, 3.5, 1.7, 10995, 18691.5
+14472, ford, Grand C-MAX, 2017, Manual, 37124, 59745, Diesel, 64.2, 3.66, 1.5, 10750, 18275
+14473, bmw, X4, 2019, Semi-Auto, 9168, 14754, Diesel, 40.9, 5.75, 3, 37990, 64583
+14474, bmw, X7, 2019, Automatic, 3980, 6405, Diesel, 31.4, 7.49, 3, 69880, 118796
+14476, vw, Arteon, 2019, Manual, 20, 32, Diesel, 52.3, 4.5, 2, 23990, 40783
+14477, merc, CLS Class, 2018, Semi-Auto, 1841, 2963, Diesel, 48.7, 4.83, 2.9, 36500, 62050
+14480, ford, Tourneo Custom, 2019, Manual, 7000, 11265, Diesel, 31.7, 7.42, 2, 29495, 50141.5
+14481, hyundi, I800, 2019, Manual, 11872, 19106, Diesel, 31.7, 7.42, 2.5, 19995, 33991.5
+14483, ford, Galaxy, 2017, Semi-Auto, 46761, 75254, Diesel, 52.3, 4.5, 2, 18200, 30940
+14488, vw, Arteon, 2017, Semi-Auto, 24853, 39997, Petrol, 38.7, 6.08, 2, 21000, 35700
+14493, ford, Grand C-MAX, 2017, Manual, 26000, 41843, Diesel, 64.2, 3.66, 1.5, 12595, 21411.5
+14494, merc, M Class, 2010, Automatic, 46000, 74030, Diesel, 31, 7.59, 3, 12995, 22091.5
+14500, vw, Arteon, 2019, Automatic, 2354, 3788, Diesel, 50.4, 4.67, 2, 29156, 49565.2
+14502, vw, Arteon, 2019, Semi-Auto, 9301, 14968, Diesel, 50.4, 4.67, 2, 23950, 40715
+14503, ford, KA, 2012, Manual, 19959, 32121, Petrol, 57.7, 4.08, 1.2, 4195, 7131.5
+14504, toyota, Hilux, 2016, Manual, 69921, 112527, Diesel, 40.4, 5.82, 2.4, 13695, 23281.5
+14505, toyota, Verso, 2016, Automatic, 25001, 40235, Petrol, 43.5, 5.41, 1.8, 12999, 22098.3
+14506, bmw, 8 Series, 2020, Semi-Auto, 419, 674, Petrol, 33.2, 7.08, 3, 69991, 118984.7
+14507, ford, Tourneo Custom, 2017, Manual, 4629, 7450, Diesel, 44.8, 5.25, 2, 20156, 34265.2
+14508, ford, Edge, 2016, Automatic, 42093, 67742, Diesel, 47.9, 4.91, 2, 19400, 32980
+14513, ford, Galaxy, 2017, Manual, 27769, 44690, Diesel, 56.5, 4.16, 2, 17995, 30591.5
+14514, hyundi, IX35, 2013, Automatic, 37000, 59546, Diesel, 39.2, 6, 2, 9995, 16991.5
+14515, hyundi, Santa Fe, 2019, Automatic, 4000, 6437, Diesel, 39.2, 6, 2.2, 34864, 59268.8
+14516, merc, GLB Class, 2020, Automatic, 20, 32, Diesel, 44.8, 5.25, 2, 44298, 75306.6
+14518, merc, GLB Class, 2020, Semi-Auto, 1499, 2412, Diesel, 47.9, 4.91, 2, 35990, 61183
+14522, vw, CC, 2015, Semi-Auto, 51268, 82508, Diesel, 58.9, 3.99, 2, 10471, 17800.7
+14523, bmw, X7, 2019, Automatic, 5825, 9374, Petrol, 24.8, 9.48, 3, 67986, 115576.2
+14524, merc, V Class, 2019, Automatic, 20, 32, Diesel, 36.7, 6.41, 2, 47490, 80733
+14525, ford, Grand C-MAX, 2016, Automatic, 28376, 45667, Diesel, 56.5, 4.16, 2, 10995, 18691.5
+14527, hyundi, Santa Fe, 2019, Semi-Auto, 1642, 2643, Diesel, 39.8, 5.91, 2.2, 32995, 56091.5
+14530, merc, GLS Class, 2019, Semi-Auto, 29, 47, Diesel, 34, 6.92, 3, 60124, 102210.8
+14536, toyota, Avensis, 2017, Manual, 21431, 34490, Petrol, 47.1, 4.99, 1.8, 12698, 21586.6
+14538, toyota, GT86, 2019, Manual, 2488, 4004, Petrol, 33.2, 7.08, 2, 24995, 42491.5
+14548, merc, CLA Class, 2017, Manual, 22171, 35681, Petrol, 51.4, 4.58, 1.6, 15600, 26520
+14549, vw, Scirocco, 2015, Manual, 63004, 101395, Diesel, 55.4, 4.25, 2, 10990, 18683
+14552, ford, KA, 2010, Manual, 33563, 54014, Petrol, 55.4, 4.25, 1.2, 3995, 6791.5
+14553, hyundi, Santa Fe, 2016, Manual, 11255, 18113, Diesel, 46.3, 5.08, 2.2, 17390, 29563
+14562, toyota, GT86, 2019, Automatic, 4000, 6437, Petrol, 32.8, 7.17, 2, 24990, 42483
+14564, ford, Grand C-MAX, 2017, Manual, 33163, 53371, Petrol, 54.3, 4.33, 1, 10400, 17680
+14567, ford, Galaxy, 2017, Manual, 50565, 81376, Diesel, 56.5, 4.16, 2, 14995, 25491.5
+14568, hyundi, I40, 2019, Manual, 30, 48, Diesel, 54.3, 4.33, 1.6, 16000, 27200
+14572, hyundi, I800, 2019, Manual, 6483, 10433, Diesel, 31.7, 7.42, 2.5, 20498, 34846.6
+14573, ford, Edge, 2018, Semi-Auto, 9343, 15036, Diesel, 47.9, 4.91, 2, 22998, 39096.6
+14574, hyundi, IX35, 2014, Manual, 82203, 132293, Diesel, 53.3, 4.41, 1.7, 6881, 11697.7
+14575, vw, CC, 2015, Automatic, 34291, 55186, Diesel, 53.3, 4.41, 2, 11715, 19915.5
+14576, hyundi, Santa Fe, 2018, Semi-Auto, 35887, 57754, Diesel, 42.8, 5.5, 2.2, 20995, 35691.5
+14579, ford, Tourneo Custom, 2018, Automatic, 22037, 35465, Diesel, 31.7, 7.42, 2, 21228, 36087.6
+14582, vw, Caddy Maxi Life, 2019, Automatic, 13106, 21092, Diesel, 44.1, 5.33, 2, 19000, 32300
+14587, merc, CLS Class, 2012, Automatic, 107000, 172199, Diesel, 46.3, 5.08, 3, 10990, 18683
+14588, toyota, Prius, 2016, Automatic, 55826, 89843, Hybrid, 85.6, 2.75, 1.8, 16498, 28046.6
+14591, hyundi, Santa Fe, 2006, Manual, 71000, 114263, Petrol, 28.8, 8.17, 2.4, 3490, 5933
+14592, bmw, M4, 2017, Semi-Auto, 10950, 17622, Petrol, 34, 6.92, 3, 36595, 62211.5
+14596, merc, M Class, 2015, Automatic, 53815, 86607, Diesel, 39.2, 6, 2.1, 18300, 31110
+14601, merc, CLA Class, 2016, Automatic, 82177, 132251, Diesel, 68.9, 3.41, 2.1, 11950, 20315
+14602, bmw, 8 Series, 2019, Semi-Auto, 2881, 4637, Petrol, 31.7, 7.42, 3, 59694, 101479.8
+14605, toyota, Land Cruiser, 2019, Semi-Auto, 12543, 20186, Diesel, 30.1, 7.81, 2.8, 39498, 67146.6
+14608, vw, Amarok, 2019, Automatic, 9500, 15289, Diesel, 36.2, 6.5, 3, 26999, 45898.3
+14619, ford, Galaxy, 2016, Manual, 35029, 56374, Diesel, 56.5, 4.16, 2, 16299, 27708.3
+14623, bmw, X4, 2015, Semi-Auto, 8732, 14053, Diesel, 47.9, 4.91, 3, 26332, 44764.4
+14629, toyota, Hilux, 2014, Manual, 88912, 143090, Diesel, 38.7, 6.08, 2.5, 11495, 19541.5
+14631, ford, Mustang, 2019, Semi-Auto, 10810, 17397, Petrol, 22.1, 10.64, 5, 36799, 62558.3
+14633, bmw, M4, 2018, Semi-Auto, 17923, 28844, Petrol, 34, 6.92, 3, 34991, 59484.7
+14640, vw, Scirocco, 2018, Semi-Auto, 7448, 11986, Petrol, 44.1, 5.33, 2, 18000, 30600
+14642, toyota, Prius, 2010, Automatic, 85000, 136794, Hybrid, 70.6, 3.33, 1.8, 10995, 18691.5
+14643, audi, RS5, 2019, Automatic, 6000, 9656, Petrol, 29.7, 7.92, 2.9, 66990, 113883
+14644, ford, Grand C-MAX, 2017, Manual, 14789, 23801, Diesel, 64.2, 3.66, 1.5, 10995, 18691.5
+14645, merc, V Class, 2017, Semi-Auto, 15612, 25125, Diesel, 44.8, 5.25, 2.2, 37000, 62900
+14658, audi, Q8, 2018, Semi-Auto, 18782, 30227, Diesel, 32.8, 7.17, 3, 56990, 96883
+14661, hyundi, Santa Fe, 2018, Automatic, 35915, 57799, Diesel, 42.8, 5.5, 2.2, 18000, 30600
+14664, ford, Grand C-MAX, 2018, Manual, 1030, 1658, Petrol, 47.9, 4.91, 1, 13495, 22941.5
+14670, merc, V Class, 2019, Automatic, 999, 1608, Diesel, 36.7, 6.41, 2, 47999, 81598.3
+14671, vw, Scirocco, 2016, Manual, 22600, 36371, Diesel, 53.3, 4.41, 2, 15990, 27183
+14674, merc, X-CLASS, 2019, Automatic, 12500, 20117, Diesel, 31.4, 7.49, 3, 33750, 57375
+14681, merc, S Class, 2018, Automatic, 23000, 37015, Diesel, 52.3, 4.5, 2.9, 39490, 67133
+14682, merc, SLK, 2003, Automatic, 57989, 93324, Petrol, 30, 7.84, 2.3, 3990, 6783
+14685, toyota, Land Cruiser, 2015, Semi-Auto, 45158, 72675, Diesel, 34.9, 6.74, 3, 29070, 49419
+14688, ford, Galaxy, 2013, Automatic, 60000, 96560, Diesel, 47.1, 4.99, 2, 8495, 14441.5
+14691, merc, SLK, 2015, Semi-Auto, 38487, 61939, Diesel, 56.5, 4.16, 2, 13240, 22508
+14693, bmw, 7 Series, 2019, Semi-Auto, 10478, 16863, Petrol, 33.6, 7, 3, 49990, 84983
+14694, bmw, X4, 2015, Manual, 39824, 64090, Diesel, 52.3, 4.5, 2, 19500, 33150
+14697, audi, A8, 2017, Semi-Auto, 36354, 58506, Diesel, 47.1, 4.99, 3, 24780, 42126
+14700, hyundi, I40, 2015, Manual, 59508, 95769, Diesel, 65.7, 3.58, 1.7, 7830, 13311
+14701, ford, Galaxy, 2017, Manual, 40255, 64784, Diesel, 56.5, 4.16, 2, 19299, 32808.3
+14703, bmw, Z4, 2020, Semi-Auto, 4825, 7765, Petrol, 38.7, 6.08, 2, 31990, 54383
+14708, vw, Scirocco, 2018, Semi-Auto, 15094, 24291, Petrol, 34.9, 6.74, 2, 22762, 38695.4
+14715, hyundi, IX35, 2015, Manual, 63917, 102864, Diesel, 53.3, 4.41, 1.7, 7450, 12665
+14718, hyundi, I800, 2019, Manual, 7761, 12490, Diesel, 31.7, 7.42, 2.5, 19998, 33996.6
+14719, merc, S Class, 2019, Automatic, 12000, 19312, Hybrid, 100.9, 2.33, 3, 56900, 96730
+14722, merc, SLK, 2010, Manual, 59147, 95188, Petrol, 36.2, 6.5, 1.8, 7495, 12741.5
+14726, ford, Mustang, 2019, Semi-Auto, 1780, 2865, Petrol, 22.1, 10.64, 5, 38000, 64600
+14727, hyundi, Santa Fe, 2018, Manual, 13436, 21623, Diesel, 47.1, 4.99, 2.2, 21985, 37374.5
+14729, bmw, X7, 2019, Automatic, 7901, 12715, Diesel, 31.4, 7.49, 3, 74980, 127466
+14734, vw, Caddy Maxi Life, 2019, Automatic, 1000, 1609, Diesel, 46.3, 5.08, 2, 20000, 34000
+14737, toyota, GT86, 2017, Manual, 18544, 29844, Petrol, 36.2, 6.5, 2, 18621, 31655.7
+14744, ford, Grand C-MAX, 2016, Manual, 31671, 50969, Diesel, 64.2, 3.66, 1.5, 9220, 15674
+14748, vw, Scirocco, 2013, Manual, 47000, 75639, Petrol, 44.1, 5.33, 1.4, 7990, 13583
+14749, vw, Scirocco, 2010, Manual, 59361, 95532, Petrol, 37.2, 6.32, 2, 7428, 12627.6
+14756, merc, CLS Class, 2017, Automatic, 35625, 57333, Diesel, 49.6, 4.74, 3, 23166, 39382.2
+14758, bmw, M5, 2016, Semi-Auto, 26000, 41843, Petrol, 28.5, 8.25, 4.4, 30181, 51307.7
+14760, merc, V Class, 2018, Automatic, 13737, 22108, Diesel, 45.6, 5.16, 2.1, 35480, 60316
+14762, ford, Galaxy, 2017, Automatic, 39824, 64090, Diesel, 52.3, 4.5, 2, 17334, 29467.8
+14773, audi, A7, 2016, Semi-Auto, 31299, 50371, Diesel, 61.4, 3.83, 3, 21950, 37315
+14778, bmw, M5, 2019, Automatic, 6568, 10570, Petrol, 24.1, 9.76, 4.4, 70000, 119000
+14779, ford, KA, 2019, Manual, 9000, 14484, Petrol, 43.5, 5.41, 1.2, 9699, 16488.3
+14780, ford, Galaxy, 2017, Manual, 41569, 66899, Diesel, 56.5, 4.16, 2, 18799, 31958.3
+14781, vw, Tiguan Allspace, 2018, Semi-Auto, 5434, 8745, Diesel, 43.5, 5.41, 2, 26350, 44795
+14784, merc, S Class, 2018, Semi-Auto, 2928, 4712, Petrol, 31.7, 7.42, 4, 89995, 152991.5
+14787, vw, Shuttle, 2019, Semi-Auto, 21100, 33957, Diesel, 32.8, 7.17, 2, 28995, 49291.5
+14791, ford, Edge, 2016, Manual, 44947, 72335, Diesel, 48.7, 4.83, 2, 16499, 28048.3
+14792, vw, Amarok, 2017, Automatic, 30450, 49004, Diesel, 36.2, 6.5, 3, 24900, 42330
+14797, merc, GL Class, 2018, Automatic, 13820, 22241, Diesel, 56.5, 4.16, 2.1, 27597, 46914.9
+14806, ford, Grand C-MAX, 2016, Automatic, 17893, 28796, Diesel, 58.9, 3.99, 1.5, 10499, 17848.3
+14811, merc, G Class, 2020, Automatic, 3000, 4828, Petrol, 21.4, 10.99, 4, 154998, 263496.6
+14812, hyundi, IX35, 2013, Automatic, 71888, 115692, Diesel, 39.2, 6, 2, 7491, 12734.7
+14814, ford, Edge, 2017, Semi-Auto, 48791, 78521, Diesel, 47.9, 4.91, 2, 19495, 33141.5
+14818, merc, CLS Class, 2019, Automatic, 2987, 4807, Diesel, 47.9, 4.91, 2.9, 45386, 77156.2
+14827, toyota, Verso, 2018, Semi-Auto, 9250, 14886, Petrol, 42.8, 5.5, 1.8, 16995, 28891.5
+14830, hyundi, IX20, 2016, Manual, 21686, 34900, Petrol, 50.4, 4.67, 1.4, 9000, 15300
+14836, toyota, GT86, 2017, Manual, 26000, 41843, Petrol, 36.2, 6.5, 2, 19995, 33991.5
+14843, hyundi, IX20, 2013, Automatic, 48666, 78320, Petrol, 43.6, 5.39, 1.6, 7234, 12297.8
+14847, vw, Caravelle, 2019, Automatic, 5000, 8047, Diesel, 32.8, 7.17, 2, 40996, 69693.2
+14848, hyundi, IX20, 2015, Automatic, 37500, 60350, Petrol, 43.6, 5.39, 1.6, 7995, 13591.5
+14850, toyota, GT86, 2015, Manual, 30500, 49085, Petrol, 36.2, 6.5, 2, 13981, 23767.7
+14851, hyundi, Santa Fe, 2015, Semi-Auto, 41900, 67431, Diesel, 41.5, 5.67, 2.2, 14495, 24641.5
+14855, toyota, Land Cruiser, 2005, Manual, 80750, 129954, Diesel, 31, 7.59, 3, 8000, 13600
+14857, hyundi, IX20, 2017, Automatic, 9320, 14999, Petrol, 43.5, 5.41, 1.6, 10295, 17501.5
+14858, toyota, Prius, 2017, Automatic, 15351, 24705, Hybrid, 85.6, 2.75, 1.8, 21450, 36465
+14861, bmw, i3, 2017, Automatic, 23983, 38597, Hybrid, 470.8, 0.5, 0, 19000, 32300
+14866, merc, V Class, 2019, Manual, 6257, 10070, Diesel, 46.3, 5.08, 2.1, 22890, 38913
+14870, merc, GL Class, 2015, Automatic, 39970, 64325, Diesel, 55.4, 4.25, 2.1, 17721, 30125.7
+14874, hyundi, IX20, 2014, Manual, 37666, 60617, Diesel, 64.2, 3.66, 1.6, 6190, 10523
+14883, ford, Grand C-MAX, 2016, Manual, 33212, 53449, Diesel, 64.2, 3.66, 1.5, 10800, 18360
+14887, merc, GL Class, 2013, Automatic, 49847, 80221, Diesel, 35.3, 6.66, 3, 27482, 46719.4
+14889, ford, Puma, 2019, Manual, 309, 497, Petrol, 50.4, 4.67, 1, 22000, 37400
+14893, vw, Arteon, 2019, Automatic, 4910, 7902, Diesel, 44.1, 5.33, 2, 24599, 41818.3
+14900, toyota, Camry, 2019, Automatic, 6000, 9656, Hybrid, 52.3, 4.5, 2.5, 25990, 44183
+14907, vw, Shuttle, 2018, Semi-Auto, 39828, 64097, Diesel, 47.1, 4.99, 2, 22794, 38749.8
+14911, ford, Galaxy, 2018, Manual, 32202, 51824, Diesel, 56.5, 4.16, 2, 18499, 31448.3
+14913, ford, KA, 2009, Manual, 61000, 98170, Petrol, 55.4, 4.25, 1.2, 2995, 5091.5
+14915, bmw, X7, 2019, Automatic, 5203, 8373, Petrol, 24.8, 9.48, 3, 68898, 117126.6
+14916, toyota, Prius, 2016, Automatic, 21000, 33796, Hybrid, 64.2, 3.66, 1.8, 22995, 39091.5
+14919, bmw, 6 Series, 2014, Semi-Auto, 62695, 100898, Diesel, 51.4, 4.58, 3, 15750, 26775
+14924, toyota, GT86, 2019, Manual, 3150, 5069, Petrol, 33.2, 7.08, 2, 24990, 42483
+14925, bmw, 6 Series, 2020, Automatic, 101, 163, Petrol, 42.8, 5.5, 2, 36550, 62135
+14927, ford, Fusion, 2009, Automatic, 44000, 70811, Petrol, 37.7, 6.24, 1.6, 2890, 4913
+14936, vw, Shuttle, 2017, Manual, 35001, 56329, Diesel, 47.1, 4.99, 2, 19998, 33996.6
+14943, bmw, 8 Series, 2019, Automatic, 4075, 6558, Petrol, 26.7, 8.81, 3, 69898, 118826.6
+14945, hyundi, Santa Fe, 2016, Semi-Auto, 14157, 22783, Diesel, 42.2, 5.57, 2.2, 18990, 32283
+14952, audi, RS4, 2019, Automatic, 4100, 6598, Petrol, 29.1, 8.08, 2.9, 56795, 96551.5
+14958, hyundi, I800, 2018, Automatic, 32730, 52674, Diesel, 28, 8.4, 2.5, 16990, 28883
+14964, vw, Jetta, 2016, Manual, 36889, 59367, Diesel, 70.6, 3.33, 2, 9899, 16828.3
+14966, ford, Galaxy, 2018, Manual, 32944, 53018, Diesel, 56.5, 4.16, 2, 20495, 34841.5
+14967, hyundi, Santa Fe, 2015, Automatic, 54991, 88499, Diesel, 41.5, 5.67, 2.2, 15650, 26605
+14968, hyundi, I40, 2015, Manual, 43000, 69202, Diesel, 67.3, 3.5, 1.7, 9000, 15300
+14972, ford, Tourneo Custom, 2016, Manual, 30382, 48895, Diesel, 44.1, 5.33, 2, 19498, 33146.6
+14978, hyundi, I40, 2017, Manual, 22172, 35682, Diesel, 67.3, 3.5, 1.7, 9490, 16133
+14982, ford, Fusion, 2008, Manual, 55789, 89783, Petrol, 37.2, 6.32, 1.6, 3199, 5438.3
+14984, audi, RS6, 2015, Automatic, 19963, 32127, Petrol, 29.4, 8, 4, 46465, 78990.5
+14985, hyundi, IX20, 2016, Manual, 38186, 61454, Diesel, 64.2, 3.66, 1.6, 6990, 11883
+14986, toyota, Hilux, 2014, Automatic, 61000, 98170, Diesel, 32.8, 7.17, 3, 14650, 24905
+14987, vw, Scirocco, 2016, Manual, 47083, 75773, Diesel, 53.3, 4.41, 2, 13500, 22950
+14988, vw, Caddy Maxi Life, 2019, Semi-Auto, 11392, 18334, Diesel, 44.1, 5.33, 2, 19995, 33991.5
+14991, bmw, M5, 2019, Semi-Auto, 551, 887, Petrol, 24.1, 9.76, 4.4, 81140, 137938
+14998, merc, V Class, 2020, Automatic, 303, 488, Diesel, 39.8, 5.91, 2.1, 24791, 42144.7
+14999, ford, Grand C-MAX, 2017, Manual, 21738, 34984, Diesel, 64.2, 3.66, 1.5, 10998, 18696.6
+15000, bmw, X6, 2019, Semi-Auto, 1629, 2622, Diesel, 34.9, 6.74, 3, 61895, 105221.5
+15002, merc, G Class, 2012, Automatic, 43000, 69202, Diesel, 25.2, 9.33, 3, 44990, 76483
+15003, ford, Grand C-MAX, 2016, Manual, 45690, 73531, Diesel, 64.2, 3.66, 1.5, 9709, 16505.3
+15004, merc, GL Class, 2015, Automatic, 45132, 72633, Diesel, 56.5, 4.16, 2.1, 15499, 26348.3
+15005, vw, Tiguan Allspace, 2019, Semi-Auto, 1385, 2229, Diesel, 38.7, 6.08, 2, 28490, 48433
+15006, vw, Beetle, 2014, Manual, 73686, 118586, Petrol, 47.9, 4.91, 1.2, 5997, 10194.9
+15008, vw, Arteon, 2019, Semi-Auto, 4697, 7559, Diesel, 50.4, 4.67, 2, 24995, 42491.5
+15014, ford, KA, 2016, Manual, 13954, 22457, Petrol, 57.7, 4.08, 1.2, 6340, 10778
+15021, bmw, X4, 2019, Semi-Auto, 9374, 15086, Diesel, 37.2, 6.32, 3, 46450, 78965
+15022, hyundi, I40, 2016, Manual, 100000, 160934, Diesel, 65.7, 3.58, 1.7, 7393, 12568.1
+15031, bmw, 7 Series, 2019, Automatic, 123, 198, Diesel, 44.8, 5.25, 3, 49990, 84983
+15036, bmw, 8 Series, 2019, Semi-Auto, 1897, 3053, Diesel, 39.8, 5.91, 3, 64103, 108975.1
+15037, hyundi, IX35, 2015, Manual, 51000, 82076, Diesel, 53.3, 4.41, 1.7, 8290, 14093
+15038, merc, V Class, 2019, Automatic, 3226, 5192, Diesel, 44.8, 5.25, 2.1, 42980, 73066
+15039, bmw, X6, 2016, Automatic, 38494, 61950, Diesel, 47.1, 4.99, 3, 29980, 50966
+15046, hyundi, Santa Fe, 2019, Semi-Auto, 6209, 9992, Diesel, 39.2, 6, 2.2, 33495, 56941.5
+15047, vw, Arteon, 2019, Automatic, 5419, 8721, Petrol, 48.7, 4.83, 1.5, 22499, 38248.3
+15055, bmw, 7 Series, 2019, Semi-Auto, 19423, 31258, Diesel, 54.3, 4.33, 3, 37999, 64598.3
+15056, bmw, X4, 2018, Semi-Auto, 14777, 23781, Diesel, 42.8, 5.5, 2, 33998, 57796.6
+15061, ford, Galaxy, 2017, Semi-Auto, 27920, 44933, Diesel, 52.3, 4.5, 2, 20450, 34765
+15062, ford, Grand C-MAX, 2016, Manual, 37020, 59578, Diesel, 64.2, 3.66, 1.5, 9799, 16658.3
+15072, merc, S Class, 2016, Semi-Auto, 14633, 23549, Diesel, 47.9, 4.91, 3, 31998, 54396.6
+15073, bmw, X4, 2015, Automatic, 66000, 106216, Diesel, 54.3, 4.33, 2, 17990, 30583
+15075, hyundi, IX35, 2015, Manual, 38760, 62378, Diesel, 53.3, 4.41, 1.7, 9199, 15638.3
+15076, vw, Tiguan Allspace, 2019, Semi-Auto, 13675, 22008, Diesel, 38.7, 6.08, 2, 26980, 45866
+15077, ford, Grand C-MAX, 2017, Manual, 7953, 12799, Diesel, 64.2, 3.66, 1.5, 14489, 24631.3
+15079, merc, S Class, 2015, Semi-Auto, 15293, 24612, Diesel, 48.7, 4.83, 3, 28498, 48446.6
+15082, ford, KA, 2014, Manual, 53332, 85829, Petrol, 57.7, 4.08, 1.2, 3595, 6111.5
+15089, hyundi, Santa Fe, 2015, Automatic, 54000, 86904, Diesel, 42.2, 5.57, 2.2, 14990, 25483
+15094, bmw, X6, 2014, Automatic, 34990, 56311, Diesel, 38.2, 6.16, 3, 18000, 30600
+15095, toyota, Avensis, 2009, Manual, 98000, 157715, Diesel, 51.4, 4.58, 2.2, 4499, 7648.3
+15099, vw, Scirocco, 2017, Automatic, 15211, 24480, Diesel, 57.6, 4.08, 2, 17390, 29563
+15104, merc, GLB Class, 2020, Semi-Auto, 637, 1025, Diesel, 44.8, 5.25, 2, 39950, 67915
+15112, hyundi, IX35, 2013, Automatic, 90000, 144841, Diesel, 39.2, 6, 2, 7995, 13591.5
+15117, ford, Galaxy, 2019, Semi-Auto, 4101, 6600, Diesel, 54.3, 4.33, 2, 27853, 47350.1
+15131, merc, CLS Class, 2014, Semi-Auto, 25696, 41354, Diesel, 52.3, 4.5, 3, 19998, 33996.6
+15132, ford, Tourneo Connect, 2019, Manual, 2991, 4814, Diesel, 61.4, 3.83, 1.5, 19897, 33824.9
+15134, bmw, i3, 2017, Automatic, 22063, 35507, Hybrid, 470.8, 0.5, 0, 21444, 36454.8
+15145, toyota, Verso, 2015, Semi-Auto, 36844, 59295, Petrol, 43.5, 5.41, 1.8, 12500, 21250
+15146, toyota, Supra, 2019, Semi-Auto, 5, 8, Petrol, 34.5, 6.82, 3, 47500, 80750
+15147, audi, A7, 2015, Semi-Auto, 42687, 68698, Diesel, 54.3, 4.33, 3, 17888, 30409.6
+15148, bmw, X4, 2019, Automatic, 6648, 10699, Petrol, 26.9, 8.74, 3, 40016, 68027.2
+15150, hyundi, I40, 2014, Manual, 76531, 123164, Diesel, 55.4, 4.25, 1.7, 8999, 15298.3
+15155, vw, Arteon, 2019, Automatic, 5364, 8632, Diesel, 50.4, 4.67, 2, 27500, 46750
+15156, ford, Galaxy, 2014, Automatic, 22000, 35405, Diesel, 47.1, 4.99, 2, 10495, 17841.5
+15157, audi, A7, 2017, Semi-Auto, 25000, 40234, Petrol, 29.7, 7.92, 4, 37500, 63750
+15160, audi, A7, 2017, Semi-Auto, 12298, 19792, Diesel, 52.3, 4.5, 3, 24860, 42262
+15163, vw, Caravelle, 2019, Automatic, 10614, 17082, Diesel, 29.4, 8, 2, 45926, 78074.2
+15165, toyota, Avensis, 2017, Automatic, 40130, 64583, Petrol, 47.1, 4.99, 1.8, 13764, 23398.8
+15168, vw, Caravelle, 2019, Semi-Auto, 8751, 14083, Diesel, 32.8, 7.17, 2, 44494, 75639.8
+15170, ford, KA, 2014, Manual, 22455, 36138, Petrol, 57.7, 4.08, 1.2, 4698, 7986.6
+15172, toyota, Prius, 2020, Automatic, 267, 430, Hybrid, 61.4, 3.83, 1.8, 23500, 39950
+15175, vw, Arteon, 2020, Automatic, 256, 412, Petrol, 47.1, 4.99, 2, 39989, 67981.3
+15176, toyota, PROACE VERSO, 2019, Automatic, 10524, 16937, Diesel, 38.7, 6.08, 2, 27249, 46323.3
+15183, merc, CLS Class, 2018, Automatic, 9300, 14967, Petrol, 32.5, 7.24, 3, 54990, 93483
+15186, toyota, Prius, 2016, Automatic, 20000, 32187, Hybrid, 94.1, 2.5, 1.8, 20000, 34000
+15188, bmw, 7 Series, 2020, Semi-Auto, 5000, 8047, Diesel, 42.2, 5.57, 3, 52999, 90098.3
+15189, bmw, X4, 2019, Automatic, 9151, 14727, Diesel, 37.2, 6.32, 3, 42982, 73069.4
+15196, audi, Q8, 2019, Semi-Auto, 3401, 5473, Diesel, 30.7, 7.66, 4, 85900, 146030
+15203, audi, A8, 2019, Semi-Auto, 500, 805, Diesel, 40.4, 5.82, 3, 42950, 73015
+15204, ford, Galaxy, 2016, Automatic, 14604, 23503, Diesel, 52.3, 4.5, 2, 15799, 26858.3
+15205, merc, GL Class, 2015, Automatic, 18758, 30188, Diesel, 55.4, 4.25, 2.1, 17949, 30513.3
+15208, vw, Beetle, 2007, Manual, 89000, 143231, Petrol, 36.7, 6.41, 1.6, 2295, 3901.5
+15212, bmw, Z4, 2020, Semi-Auto, 101, 163, Petrol, 37.2, 6.32, 2, 34990, 59483
+15213, toyota, Avensis, 2018, Automatic, 20989, 33778, Petrol, 47.1, 4.99, 1.8, 16495, 28041.5
+15220, hyundi, I800, 2017, Manual, 29100, 46832, Diesel, 37.7, 6.24, 2.5, 14777, 25120.9
+15225, ford, Grand C-MAX, 2013, Manual, 36101, 58099, Diesel, 60.1, 3.91, 1.6, 7698, 13086.6
